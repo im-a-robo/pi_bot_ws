@@ -1,0 +1,4 @@
+Current Steps to follow next
+
+1. Make a quick I2C interface that uses SMBus and the linux/I2C lib 
+2. Make an API to control all the motors, basing this kinda of the https://github.com/adafruit/Adafruit_CircuitPython_MotorKit 1
