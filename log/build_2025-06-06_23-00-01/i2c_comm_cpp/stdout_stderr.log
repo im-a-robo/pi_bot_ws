@@ -1,0 +1,38 @@
+[0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+
+[0m
+-- Found ament_cmake: 1.3.11 (/home/nick/ros2-humble/src/install/share/ament_cmake/cmake)
+-- Found rclcpp: 16.0.12 (/home/nick/ros2-humble/src/install/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.6 (/home/nick/ros2-humble/src/install/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.6 (/home/nick/ros2-humble/src/install/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.6 (/home/nick/ros2-humble/src/install/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/home/nick/ros2-humble/src/install/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.7 (/home/nick/ros2-humble/src/install/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found ament_lint_auto: 0.12.12 (/home/nick/ros2-humble/src/install/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /home/nick/dev/pi_bot_ws/src/i2c_comm_cpp/include
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done (1.2s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/nick/dev/pi_bot_ws/build/i2c_comm_cpp
+[ 50%] [32mBuilding CXX object CMakeFiles/i2c_comm_node.dir/src/i2c_utils.cpp.o[0m
+[100%] [32m[1mLinking CXX executable i2c_comm_node[0m
+/usr/bin/ld: /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/../../../../lib/Scrt1.o: in function `_start':
+(.text+0x1b): undefined reference to `main'
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/i2c_comm_node.dir/build.make:155: i2c_comm_node] Error 1
+make[1]: *** [CMakeFiles/Makefile2:153: CMakeFiles/i2c_comm_node.dir/all] Error 2
+make: *** [Makefile:146: all] Error 2

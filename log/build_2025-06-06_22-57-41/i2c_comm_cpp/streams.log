@@ -1,0 +1,79 @@
+[0.027s] Invoking command in '/home/nick/dev/pi_bot_ws/build/i2c_comm_cpp': DEBUGINFOD_URLS=https://debuginfod.archlinux.org _=/usr/bin/env /usr/bin/cmake /home/nick/dev/pi_bot_ws/src/i2c_comm_cpp -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -DCMAKE_INSTALL_PREFIX=/home/nick/dev/pi_bot_ws/install/i2c_comm_cpp
+[0.040s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.041s]   Compatibility with CMake < 3.10 will be removed from a future version of
+[0.041s]   CMake.
+[0.041s] 
+[0.041s]   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+[0.041s]   to tell CMake that the project requires at least <min> but has been updated
+[0.041s]   to work with policies introduced by <max> or earlier.
+[0.041s] 
+[0.041s] [0m
+[0.121s] -- The C compiler identification is GNU 15.1.1
+[0.245s] -- The CXX compiler identification is GNU 15.1.1
+[0.258s] -- Detecting C compiler ABI info
+[0.397s] -- Detecting C compiler ABI info - done
+[0.419s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.419s] -- Detecting C compile features
+[0.420s] -- Detecting C compile features - done
+[0.447s] -- Detecting CXX compiler ABI info
+[0.626s] -- Detecting CXX compiler ABI info - done
+[0.648s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.648s] -- Detecting CXX compile features
+[0.649s] -- Detecting CXX compile features - done
+[0.668s] -- Found ament_cmake: 1.3.11 (/home/nick/ros2-humble/src/install/share/ament_cmake/cmake)
+[0.848s] -- Found Python3: /home/nick/.pyenv/versions/3.11.9/bin/python3 (found version "3.11.9") found components: Interpreter
+[0.997s] -- Found rclcpp: 16.0.12 (/home/nick/ros2-humble/src/install/share/rclcpp/cmake)
+[1.063s] -- Found rosidl_generator_c: 3.1.6 (/home/nick/ros2-humble/src/install/share/rosidl_generator_c/cmake)
+[1.071s] -- Found rosidl_adapter: 3.1.6 (/home/nick/ros2-humble/src/install/share/rosidl_adapter/cmake)
+[1.084s] -- Found rosidl_generator_cpp: 3.1.6 (/home/nick/ros2-humble/src/install/share/rosidl_generator_cpp/cmake)
+[1.103s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.129s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.202s] -- Found rmw_implementation_cmake: 6.1.2 (/home/nick/ros2-humble/src/install/share/rmw_implementation_cmake/cmake)
+[1.206s] -- Found rmw_fastrtps_cpp: 6.2.7 (/home/nick/ros2-humble/src/install/share/rmw_fastrtps_cpp/cmake)
+[1.350s] -- Found OpenSSL: /usr/lib/libcrypto.so (found version "3.5.0")
+[1.383s] -- Found FastRTPS: /home/nick/ros2-humble/src/install/include
+[1.424s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.438s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.599s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.601s] -- Found Threads: TRUE
+[1.689s] -- Found ament_lint_auto: 0.12.12 (/home/nick/ros2-humble/src/install/share/ament_lint_auto/cmake)
+[1.789s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.790s] -- Configured cppcheck include dirs: /home/nick/dev/pi_bot_ws/src/i2c_comm_cpp/include
+[1.790s] -- Configured cppcheck exclude dirs and/or files: 
+[1.792s] -- Added test 'lint_cmake' to check CMake code style
+[1.800s] -- Added test 'uncrustify' to check C / C++ code style
+[1.800s] -- Configured uncrustify additional arguments: 
+[1.801s] -- Added test 'xmllint' to check XML markup files
+[1.802s] -- Configuring done (1.8s)
+[1.807s] -- Generating done (0.0s)
+[1.807s] [33mCMake Warning:
+[1.808s]   Manually-specified variables were not used by the project:
+[1.808s] 
+[1.808s]     CMAKE_EXPORT_COMPILE_COMMANDS
+[1.808s] 
+[1.808s] [0m
+[1.808s] -- Build files have been written to: /home/nick/dev/pi_bot_ws/build/i2c_comm_cpp
+[1.819s] Invoked command in '/home/nick/dev/pi_bot_ws/build/i2c_comm_cpp' returned '0': DEBUGINFOD_URLS=https://debuginfod.archlinux.org _=/usr/bin/env /usr/bin/cmake /home/nick/dev/pi_bot_ws/src/i2c_comm_cpp -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -DCMAKE_INSTALL_PREFIX=/home/nick/dev/pi_bot_ws/install/i2c_comm_cpp
+[1.819s] Invoking command in '/home/nick/dev/pi_bot_ws/build/i2c_comm_cpp': DEBUGINFOD_URLS=https://debuginfod.archlinux.org _=/usr/bin/env /usr/bin/cmake --build /home/nick/dev/pi_bot_ws/build/i2c_comm_cpp -- -j12 -l12
+[1.856s] Invoked command in '/home/nick/dev/pi_bot_ws/build/i2c_comm_cpp' returned '0': DEBUGINFOD_URLS=https://debuginfod.archlinux.org _=/usr/bin/env /usr/bin/cmake --build /home/nick/dev/pi_bot_ws/build/i2c_comm_cpp -- -j12 -l12
+[1.867s] Invoking command in '/home/nick/dev/pi_bot_ws/build/i2c_comm_cpp': DEBUGINFOD_URLS=https://debuginfod.archlinux.org _=/usr/bin/env /usr/bin/cmake --install /home/nick/dev/pi_bot_ws/build/i2c_comm_cpp
+[1.872s] -- Install configuration: ""
+[1.872s] -- Installing: /home/nick/dev/pi_bot_ws/install/i2c_comm_cpp/include/
+[1.872s] -- Installing: /home/nick/dev/pi_bot_ws/install/i2c_comm_cpp/include//i2c_comm_cpp
+[1.872s] -- Installing: /home/nick/dev/pi_bot_ws/install/i2c_comm_cpp/include//i2c_comm_cpp/i2c_utils.hpp
+[1.872s] -- Installing: /home/nick/dev/pi_bot_ws/install/i2c_comm_cpp/share/ament_index/resource_index/package_run_dependencies/i2c_comm_cpp
+[1.873s] -- Installing: /home/nick/dev/pi_bot_ws/install/i2c_comm_cpp/share/ament_index/resource_index/parent_prefix_path/i2c_comm_cpp
+[1.873s] -- Installing: /home/nick/dev/pi_bot_ws/install/i2c_comm_cpp/share/i2c_comm_cpp/environment/ament_prefix_path.sh
+[1.873s] -- Installing: /home/nick/dev/pi_bot_ws/install/i2c_comm_cpp/share/i2c_comm_cpp/environment/ament_prefix_path.dsv
+[1.873s] -- Installing: /home/nick/dev/pi_bot_ws/install/i2c_comm_cpp/share/i2c_comm_cpp/environment/path.sh
+[1.873s] -- Installing: /home/nick/dev/pi_bot_ws/install/i2c_comm_cpp/share/i2c_comm_cpp/environment/path.dsv
+[1.873s] -- Installing: /home/nick/dev/pi_bot_ws/install/i2c_comm_cpp/share/i2c_comm_cpp/local_setup.bash
+[1.873s] -- Installing: /home/nick/dev/pi_bot_ws/install/i2c_comm_cpp/share/i2c_comm_cpp/local_setup.sh
+[1.873s] -- Installing: /home/nick/dev/pi_bot_ws/install/i2c_comm_cpp/share/i2c_comm_cpp/local_setup.zsh
+[1.873s] -- Installing: /home/nick/dev/pi_bot_ws/install/i2c_comm_cpp/share/i2c_comm_cpp/local_setup.dsv
+[1.873s] -- Installing: /home/nick/dev/pi_bot_ws/install/i2c_comm_cpp/share/i2c_comm_cpp/package.dsv
+[1.873s] -- Installing: /home/nick/dev/pi_bot_ws/install/i2c_comm_cpp/share/ament_index/resource_index/packages/i2c_comm_cpp
+[1.874s] -- Installing: /home/nick/dev/pi_bot_ws/install/i2c_comm_cpp/share/i2c_comm_cpp/cmake/i2c_comm_cppConfig.cmake
+[1.874s] -- Installing: /home/nick/dev/pi_bot_ws/install/i2c_comm_cpp/share/i2c_comm_cpp/cmake/i2c_comm_cppConfig-version.cmake
+[1.874s] -- Installing: /home/nick/dev/pi_bot_ws/install/i2c_comm_cpp/share/i2c_comm_cpp/package.xml
+[1.875s] Invoked command in '/home/nick/dev/pi_bot_ws/build/i2c_comm_cpp' returned '0': DEBUGINFOD_URLS=https://debuginfod.archlinux.org _=/usr/bin/env /usr/bin/cmake --install /home/nick/dev/pi_bot_ws/build/i2c_comm_cpp

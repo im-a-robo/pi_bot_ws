@@ -1,0 +1,2 @@
+Invoking command in '/home/nick/dev/pi_bot_ws/build/i2c_comm_cpp': DEBUGINFOD_URLS=https://debuginfod.archlinux.org _=/usr/bin/env /usr/bin/cmake --build /home/nick/dev/pi_bot_ws/build/i2c_comm_cpp -- -j12 -l12
+Invoked command in '/home/nick/dev/pi_bot_ws/build/i2c_comm_cpp' returned '2': DEBUGINFOD_URLS=https://debuginfod.archlinux.org _=/usr/bin/env /usr/bin/cmake --build /home/nick/dev/pi_bot_ws/build/i2c_comm_cpp -- -j12 -l12
