@@ -1,0 +1,20 @@
+CompileFlags:
+  CompilationDatabase: compile_commands.json
+
+Diagnostics:
+  UnusedIncludes: Strict
+  ClangTidy:
+    Add: [performance-*, readability-*, modernize-*]
+    Remove: [cppcoreguidelines-pro-type-vararg]
+
+Completion:
+  AllScopes: true
+  FilterText: true
+  Dedupe: true
+
+InlayHints:
+  Enabled: true
+
+Index:
+  External:
+    - /usr/include
