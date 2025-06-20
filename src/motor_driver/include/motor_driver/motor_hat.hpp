@@ -1,16 +1,25 @@
 #ifndef MOTOR_HAT_HPP
 #define MOTOR_HAT_HPP
 
-#include <i2c_comm_cpp/i2c_utils.hpp>
+#include <cstdint>
+#include <memory>
+#include <vector>
 
-class enum
+#include "i2c_comm_cpp/i2c_utils.hpp"
+#include "motor_driver/motor.hpp"
+#include "motor_driver/pwm_driver.hpp"
 
-    class MotorHat {
-        private : const int i2c_addr_ = 0x60;  // address of led pwm controller {1:A5(1):A[4:0](0)}
-        I2CDevice hat = I2CDevice(i2c_addr_);
+class MotorHat {
+   private:
+    PWM pwm;
 
-        public : MotorHat();
+    std::vector<std::shared_ptr<Motor>> motors;
 
-    };
+   public:
+    MotorHat(int i2c_addr, int freq);
+
+    void set_pin(const uint8_t pin, uint8_t val);
+    std::shared_ptr<Motor> get_motor(const uint8_t num);
+};
 
 #endif

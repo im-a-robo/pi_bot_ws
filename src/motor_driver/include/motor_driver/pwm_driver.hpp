@@ -6,6 +6,7 @@
 #include <cstdint>
 
 #include "i2c_comm_cpp/i2c_utils.hpp"
+
 class PWM {
    private:
     // registers/etc.

@@ -1,23 +1,26 @@
-#ifndef MOTOR
-#define MOTOR
+#ifndef MOTOR_HPP
+#define MOTOR_HPP
 
 #include <cstdint>
 
-#include "i2c_comm_cpp/i2c_utils.hpp"
+#include "motor_driver/pwm_driver.hpp"
+
+enum class Command { FORWARD, BACKWARD, BREAK, RELEASE };
 
 class Motor {
    private:
-    I2CDevice pwm_controller =
-        I2CDevice(0x60);  // address of led pwm controller {1:A5(1):A[4:0](0)}
-
+    PWM pwm_controller;
     uint8_t motor_channel;
 
+    uint8_t pwm, in1, in2 = 0;
+
    public:
-    Motor(int motor_channel);
+    Motor(PWM pwm_controller, int motor_channel);
 
     // motor functions
     void set_power(int pwr);
     void stop();
+    void set_direction(Command cmd);
 };
 
 #endif
