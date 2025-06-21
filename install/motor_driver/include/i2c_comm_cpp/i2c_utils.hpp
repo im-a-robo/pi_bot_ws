@@ -24,7 +24,10 @@ class I2CDevice {
 
     void send_data(uint8_t data);
     void write_data(uint8_t reg, uint8_t length, const uint8_t data[]);
+    void write_byte(uint8_t reg, uint8_t data);
     void recive_data(uint8_t *data);
+    int read_byte(uint8_t reg);
+    int read_u_byte(uint8_t reg);
     void read_data(uint8_t reg, uint8_t data[]);
 };
 

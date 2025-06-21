@@ -1,0 +1,4 @@
+make[2]: *** [CMakeFiles/motor_driver.dir/build.make:107: CMakeFiles/motor_driver.dir/src/motor_hat.cpp.o] Interrupt
+make[2]: *** [CMakeFiles/motor_driver.dir/build.make:93: CMakeFiles/motor_driver.dir/src/motor.cpp.o] Interrupt
+make[1]: *** [CMakeFiles/Makefile2:153: CMakeFiles/motor_driver.dir/all] Interrupt
+make: *** [Makefile:146: all] Interrupt

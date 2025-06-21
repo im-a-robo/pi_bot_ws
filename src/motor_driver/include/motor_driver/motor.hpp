@@ -2,20 +2,21 @@
 #define MOTOR_HPP
 
 #include <cstdint>
+#include <iostream>
 
-#include "motor_driver/pwm_driver.hpp"
+class MotorHat;
 
 enum class Command { FORWARD, BACKWARD, BREAK, RELEASE };
 
 class Motor {
    private:
-    PWM pwm_controller;
+    MotorHat* hat;
     uint8_t motor_channel;
 
     uint8_t pwm, in1, in2 = 0;
 
    public:
-    Motor(PWM pwm_controller, int motor_channel);
+    Motor(MotorHat* hat, int motor_channel);
 
     // motor functions
     void set_power(int pwr);

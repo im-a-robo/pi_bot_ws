@@ -1,0 +1,31 @@
+[0.030s] Invoking command in '/home/nick/dev/pi_bot_ws/build/motor_driver': DEBUGINFOD_URLS=https://debuginfod.archlinux.org _=/usr/bin/env /usr/bin/cmake --build /home/nick/dev/pi_bot_ws/build/motor_driver -- -j12 -l12
+[0.135s] [ 20%] [32mBuilding CXX object CMakeFiles/motor_driver.dir/src/motor_hat.cpp.o[0m
+[1.040s] [ 40%] [32m[1mLinking CXX static library libmotor_driver.a[0m
+[1.128s] [100%] Built target motor_driver
+[1.147s] Invoked command in '/home/nick/dev/pi_bot_ws/build/motor_driver' returned '0': DEBUGINFOD_URLS=https://debuginfod.archlinux.org _=/usr/bin/env /usr/bin/cmake --build /home/nick/dev/pi_bot_ws/build/motor_driver -- -j12 -l12
+[1.162s] Invoking command in '/home/nick/dev/pi_bot_ws/build/motor_driver': DEBUGINFOD_URLS=https://debuginfod.archlinux.org _=/usr/bin/env /usr/bin/cmake --install /home/nick/dev/pi_bot_ws/build/motor_driver
+[1.175s] -- Install configuration: ""
+[1.175s] -- Installing: /home/nick/dev/pi_bot_ws/install/motor_driver/lib/libmotor_driver.a
+[1.175s] -- Up-to-date: /home/nick/dev/pi_bot_ws/install/motor_driver/include/
+[1.176s] -- Up-to-date: /home/nick/dev/pi_bot_ws/install/motor_driver/include//motor_driver
+[1.176s] -- Installing: /home/nick/dev/pi_bot_ws/install/motor_driver/include//motor_driver/pwm_driver.hpp
+[1.176s] -- Installing: /home/nick/dev/pi_bot_ws/install/motor_driver/include//motor_driver/motor_hat.hpp
+[1.176s] -- Installing: /home/nick/dev/pi_bot_ws/install/motor_driver/include//motor_driver/motor.hpp
+[1.177s] -- Up-to-date: /home/nick/dev/pi_bot_ws/install/motor_driver/include//i2c_comm_cpp
+[1.177s] -- Installing: /home/nick/dev/pi_bot_ws/install/motor_driver/include//i2c_comm_cpp/i2c_utils.hpp
+[1.178s] -- Up-to-date: /home/nick/dev/pi_bot_ws/install/motor_driver/share/ament_index/resource_index/package_run_dependencies/motor_driver
+[1.178s] -- Up-to-date: /home/nick/dev/pi_bot_ws/install/motor_driver/share/ament_index/resource_index/parent_prefix_path/motor_driver
+[1.178s] -- Up-to-date: /home/nick/dev/pi_bot_ws/install/motor_driver/share/motor_driver/environment/ament_prefix_path.sh
+[1.178s] -- Installing: /home/nick/dev/pi_bot_ws/install/motor_driver/share/motor_driver/environment/ament_prefix_path.dsv
+[1.178s] -- Up-to-date: /home/nick/dev/pi_bot_ws/install/motor_driver/share/motor_driver/environment/path.sh
+[1.178s] -- Installing: /home/nick/dev/pi_bot_ws/install/motor_driver/share/motor_driver/environment/path.dsv
+[1.178s] -- Up-to-date: /home/nick/dev/pi_bot_ws/install/motor_driver/share/motor_driver/local_setup.bash
+[1.179s] -- Up-to-date: /home/nick/dev/pi_bot_ws/install/motor_driver/share/motor_driver/local_setup.sh
+[1.179s] -- Up-to-date: /home/nick/dev/pi_bot_ws/install/motor_driver/share/motor_driver/local_setup.zsh
+[1.179s] -- Installing: /home/nick/dev/pi_bot_ws/install/motor_driver/share/motor_driver/local_setup.dsv
+[1.179s] -- Installing: /home/nick/dev/pi_bot_ws/install/motor_driver/share/motor_driver/package.dsv
+[1.179s] -- Up-to-date: /home/nick/dev/pi_bot_ws/install/motor_driver/share/ament_index/resource_index/packages/motor_driver
+[1.179s] -- Up-to-date: /home/nick/dev/pi_bot_ws/install/motor_driver/share/motor_driver/cmake/motor_driverConfig.cmake
+[1.179s] -- Up-to-date: /home/nick/dev/pi_bot_ws/install/motor_driver/share/motor_driver/cmake/motor_driverConfig-version.cmake
+[1.179s] -- Up-to-date: /home/nick/dev/pi_bot_ws/install/motor_driver/share/motor_driver/package.xml
+[1.181s] Invoked command in '/home/nick/dev/pi_bot_ws/build/motor_driver' returned '0': DEBUGINFOD_URLS=https://debuginfod.archlinux.org _=/usr/bin/env /usr/bin/cmake --install /home/nick/dev/pi_bot_ws/build/motor_driver

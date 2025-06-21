@@ -2,15 +2,11 @@
 
 #include <algorithm>
 
-Motor::Motor(PWM pwm_controller, int motor_channel) : pwm_controller(pwm_controller) {
-    this->motor_channel = motor_channel;
+#include "motor_driver/motor_hat.hpp"
 
+Motor::Motor(MotorHat* hat, int motor_channel) : hat(hat) {
+    this->motor_channel = motor_channel;
     switch (this->motor_channel) {
-        case 0:
-            this->pwm = 8;
-            this->in2 = 9;
-            this->in1 = 10;
-            break;
         case 1:
             this->pwm = 13;
             this->in2 = 12;
@@ -34,18 +30,40 @@ Motor::Motor(PWM pwm_controller, int motor_channel) : pwm_controller(pwm_control
 
 // pwr is on the scale of -100% to 100%
 void Motor::set_power(int pwr) {
-    uint16_t pwm_off = std::clamp(pwr, -100, 100) / 100 * 4096;
+    pwr = std::clamp(pwr, -100, 100);
 
-    this->pwm_controller.set_pwm(this->pwm, 0, pwm_off);
+    if (pwr < 0) {
+        set_direction(Command::BACKWARD);
+    } else {
+        set_direction(Command::FORWARD);
+    }
+
+    uint16_t pwm_off = std::abs(pwr) / 100 * 4096;
+
+    this->hat->pwm.set_pwm(this->pwm, 0, pwm_off);
 }
 
 void Motor::stop() {
-    this->pwm_controller.set_pwm(this->pwm, 0, 0);
+    this->hat->pwm.set_pwm(this->pwm, 0, 0);
 }
 
 void Motor::set_direction(Command cmd) {
     switch (cmd) {
         case Command::FORWARD:
-            this->in1 = break;
+            hat->set_pin(this->in1, 1);
+            hat->set_pin(this->in2, 0);
+            break;
+        case Command::BACKWARD:
+            hat->set_pin(this->in1, 0);
+            hat->set_pin(this->in2, 1);
+            break;
+        case Command::RELEASE:
+            hat->set_pin(this->in1, 0);
+            hat->set_pin(this->in2, 0);
+            break;
+        case Command::BREAK:
+            hat->set_pin(this->in1, 1);
+            hat->set_pin(this->in2, 1);
+            break;
     }
 }
