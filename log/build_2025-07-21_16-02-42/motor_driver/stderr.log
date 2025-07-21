@@ -1,0 +1,28 @@
+[01m[K/home/nick/dev/pi_bot_ws/src/motor_driver/src/motor.cpp:3:1:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[KMotor::[01;32m[KMotor[m[K(int)[m[K’
+    3 | [01;31m[KMotor[m[K::Motor(int motor_channel) {
+      | [01;31m[K^~~~~[m[K
+In file included from [01m[K/home/nick/dev/pi_bot_ws/src/motor_driver/src/motor.cpp:1[m[K:
+[01m[K/home/nick/dev/pi_bot_ws/src/motor_driver/include/motor_driver/motor.hpp:11:7:[m[K [01;36m[Knote: [m[Kcandidates are: ‘[01m[Kconstexpr Motor::[01;32m[KMotor[m[K(Motor&&)[m[K’
+   11 | class [01;36m[KMotor[m[K {
+      |       [01;36m[K^~~~~[m[K
+[01m[K/home/nick/dev/pi_bot_ws/src/motor_driver/include/motor_driver/motor.hpp:11:7:[m[K [01;36m[Knote: [m[K                ‘[01m[Kconstexpr Motor::[01;32m[KMotor[m[K(const Motor&)[m[K’
+[01m[K/home/nick/dev/pi_bot_ws/src/motor_driver/include/motor_driver/motor.hpp:19:5:[m[K [01;36m[Knote: [m[K                ‘[01m[KMotor::[01;32m[KMotor[m[K(MotorHat*, int)[m[K’
+   19 |     [01;36m[KMotor[m[K(MotorHat* hat, int motor_channel);
+      |     [01;36m[K^~~~~[m[K
+[01m[K/home/nick/dev/pi_bot_ws/src/motor_driver/include/motor_driver/motor.hpp:11:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass Motor[m[K’ defined here
+   11 | class [01;36m[KMotor[m[K {
+      |       [01;36m[K^~~~~[m[K
+[01m[K/home/nick/dev/pi_bot_ws/src/motor_driver/src/motor.cpp:8:1:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[Kset_power[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.1.0/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+    8 | [01;31m[KMotor[m[K::set_power(int pwr) {}
+      | [01;31m[K^~~~~[m[K
+[01m[K/home/nick/dev/pi_bot_ws/src/motor_driver/src/motor.cpp:8:1:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kint Motor::[01;32m[Kset_power[m[K(int)[m[K’
+[01m[K/home/nick/dev/pi_bot_ws/src/motor_driver/include/motor_driver/motor.hpp:22:10:[m[K [01;36m[Knote: [m[Kcandidate is: ‘[01m[Kvoid Motor::[01;32m[Kset_power[m[K(int)[m[K’
+   22 |     void [01;36m[Kset_power[m[K(int pwr);
+      |          [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/nick/dev/pi_bot_ws/src/motor_driver/include/motor_driver/motor.hpp:11:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass Motor[m[K’ defined here
+   11 | class [01;36m[KMotor[m[K {
+      |       [01;36m[K^~~~~[m[K
+make[2]: *** [CMakeFiles/motor_driver.dir/build.make:93: CMakeFiles/motor_driver.dir/src/motor.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+make[1]: *** [CMakeFiles/Makefile2:153: CMakeFiles/motor_driver.dir/all] Error 2
+make: *** [Makefile:146: all] Error 2

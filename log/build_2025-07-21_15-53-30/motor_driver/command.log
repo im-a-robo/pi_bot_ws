@@ -1,0 +1,4 @@
+Invoking command in '/home/nick/dev/pi_bot_ws/build/motor_driver': DEBUGINFOD_URLS=https://debuginfod.archlinux.org _=/usr/bin/env /usr/bin/cmake --build /home/nick/dev/pi_bot_ws/build/motor_driver -- -j12 -l12
+Invoked command in '/home/nick/dev/pi_bot_ws/build/motor_driver' returned '0': DEBUGINFOD_URLS=https://debuginfod.archlinux.org _=/usr/bin/env /usr/bin/cmake --build /home/nick/dev/pi_bot_ws/build/motor_driver -- -j12 -l12
+Invoking command in '/home/nick/dev/pi_bot_ws/build/motor_driver': DEBUGINFOD_URLS=https://debuginfod.archlinux.org _=/usr/bin/env /usr/bin/cmake --install /home/nick/dev/pi_bot_ws/build/motor_driver
+Invoked command in '/home/nick/dev/pi_bot_ws/build/motor_driver' returned '0': DEBUGINFOD_URLS=https://debuginfod.archlinux.org _=/usr/bin/env /usr/bin/cmake --install /home/nick/dev/pi_bot_ws/build/motor_driver
