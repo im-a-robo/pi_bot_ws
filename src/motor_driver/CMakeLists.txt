@@ -26,10 +26,6 @@ ament_target_dependencies(${PROJECT_NAME}
   rclcpp
 )
 
-target_link_libraries(${PROJECT_NAME}
-  i2c
-)
-
 # Install targets
 install(TARGETS ${PROJECT_NAME}
   EXPORT export_${PROJECT_NAME}

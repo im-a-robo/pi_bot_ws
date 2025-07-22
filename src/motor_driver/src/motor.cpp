@@ -7,6 +7,10 @@
 Motor::Motor(MotorHat* hat, int motor_channel) : hat(hat) {
     this->motor_channel = motor_channel;
     switch (this->motor_channel) {
+        case 0:
+            this->pwm = 8;
+            this->in2 = 9;
+            this->in1 = 10;
         case 1:
             this->pwm = 13;
             this->in2 = 12;
