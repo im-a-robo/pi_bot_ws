@@ -1,8 +1,0 @@
-[0.028s] Invoking command in '/home/nick/dev/pi_bot_ws/build/motor_driver': DEBUGINFOD_URLS=https://debuginfod.archlinux.org _=/usr/bin/env /usr/bin/cmake --build /home/nick/dev/pi_bot_ws/build/motor_driver -- -j12 -l12
-[0.124s] [ 20%] [32mBuilding CXX object CMakeFiles/motor_driver.dir/src/motor_hat.cpp.o[0m
-[0.125s] [ 40%] [32mBuilding CXX object CMakeFiles/motor_driver.dir/src/motor.cpp.o[0m
-[0.226s] make[2]: *** [CMakeFiles/motor_driver.dir/build.make:107: CMakeFiles/motor_driver.dir/src/motor_hat.cpp.o] Interrupt
-[0.226s] make[2]: *** [CMakeFiles/motor_driver.dir/build.make:93: CMakeFiles/motor_driver.dir/src/motor.cpp.o] Interrupt
-[0.227s] make[1]: *** [CMakeFiles/Makefile2:153: CMakeFiles/motor_driver.dir/all] Interrupt
-[0.228s] make: *** [Makefile:146: all] Interrupt
-[0.228s] Invoked command in '/home/nick/dev/pi_bot_ws/build/motor_driver' returned '-2': DEBUGINFOD_URLS=https://debuginfod.archlinux.org _=/usr/bin/env /usr/bin/cmake --build /home/nick/dev/pi_bot_ws/build/motor_driver -- -j12 -l12

@@ -1,0 +1,27 @@
+[0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+
+[0m
+/usr/bin/ld: /home/nick/dev/pi_bot_ws/install/motor_driver/lib/libmotor_driver.a(i2c_utils.cpp.o): in function `I2CDevice::send_data(unsigned char)':
+i2c_utils.cpp:(.text+0x194): undefined reference to `i2c_smbus_write_byte(int, unsigned char)'
+/usr/bin/ld: /home/nick/dev/pi_bot_ws/install/motor_driver/lib/libmotor_driver.a(i2c_utils.cpp.o): in function `I2CDevice::write_byte(unsigned char, unsigned char)':
+i2c_utils.cpp:(.text+0x20b): undefined reference to `i2c_smbus_write_byte_data(int, unsigned char, unsigned char)'
+/usr/bin/ld: /home/nick/dev/pi_bot_ws/install/motor_driver/lib/libmotor_driver.a(i2c_utils.cpp.o): in function `I2CDevice::write_data(unsigned char, unsigned char, unsigned char const*)':
+i2c_utils.cpp:(.text+0x285): undefined reference to `i2c_smbus_write_block_data(int, unsigned char, unsigned char, unsigned char const*)'
+/usr/bin/ld: /home/nick/dev/pi_bot_ws/install/motor_driver/lib/libmotor_driver.a(i2c_utils.cpp.o): in function `I2CDevice::recive_data(unsigned char*)':
+i2c_utils.cpp:(.text+0x2e9): undefined reference to `i2c_smbus_read_byte(int)'
+/usr/bin/ld: /home/nick/dev/pi_bot_ws/install/motor_driver/lib/libmotor_driver.a(i2c_utils.cpp.o): in function `I2CDevice::read_byte(unsigned char)':
+i2c_utils.cpp:(.text+0x360): undefined reference to `i2c_smbus_read_byte_data(int, unsigned char)'
+/usr/bin/ld: /home/nick/dev/pi_bot_ws/install/motor_driver/lib/libmotor_driver.a(i2c_utils.cpp.o): in function `I2CDevice::read_u_byte(unsigned char)':
+i2c_utils.cpp:(.text+0x3ce): undefined reference to `i2c_smbus_read_byte_data(int, unsigned char)'
+/usr/bin/ld: /home/nick/dev/pi_bot_ws/install/motor_driver/lib/libmotor_driver.a(i2c_utils.cpp.o): in function `I2CDevice::read_data(unsigned char, unsigned char*)':
+i2c_utils.cpp:(.text+0x448): undefined reference to `i2c_smbus_read_block_data(int, unsigned char, unsigned char*)'
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/hat_test.dir/build.make:156: hat_test] Error 1
+make[1]: *** [CMakeFiles/Makefile2:153: CMakeFiles/hat_test.dir/all] Error 2
+make: *** [Makefile:146: all] Error 2

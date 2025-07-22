@@ -1,0 +1,5 @@
+source;share/hat_test/local_setup.bash
+source;share/hat_test/local_setup.dsv
+source;share/hat_test/local_setup.ps1
+source;share/hat_test/local_setup.sh
+source;share/hat_test/local_setup.zsh

@@ -16,6 +16,7 @@ class Motor {
     uint8_t pwm, in1, in2 = 0;
 
    public:
+    Motor();
     Motor(MotorHat* hat, int motor_channel);
 
     // motor functions

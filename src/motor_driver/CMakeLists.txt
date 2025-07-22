@@ -5,38 +5,52 @@ if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES "Clang")
   add_compile_options(-Wall -Wextra -Wpedantic)
 endif()
 
-# Find dependencies
+# Dependencies
 find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
 
-# Include directories
+# Include
 include_directories(include)
 
-# Add the library from .cpp files (if any) in src/
+# Sources
 file(GLOB SOURCES "src/*.cpp")
 add_library(${PROJECT_NAME} ${SOURCES})
 
-# Link against ROS 2 libraries
+target_include_directories(${PROJECT_NAME}
+  PUBLIC
+    $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
+    $<INSTALL_INTERFACE:include>
+)
+
 ament_target_dependencies(${PROJECT_NAME}
   rclcpp
 )
 
-# Install the library
-install(TARGETS
-  ${PROJECT_NAME}
-  DESTINATION lib
+target_link_libraries(${PROJECT_NAME}
+  i2c
 )
 
-# Install header files
+# Install targets
+install(TARGETS ${PROJECT_NAME}
+  EXPORT export_${PROJECT_NAME}
+  ARCHIVE DESTINATION lib
+  LIBRARY DESTINATION lib
+  RUNTIME DESTINATION bin
+)
+
+# Install headers
 install(DIRECTORY include/
   DESTINATION include/
 )
 
-# Testing (optional)
+# Export library for use in other packages
+ament_export_include_directories(include)
+ament_export_dependencies(rclcpp)
+ament_export_targets(export_${PROJECT_NAME})
+
+# Lint (optional)
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
-  set(ament_cmake_cpplint_FOUND TRUE)
-  set(ament_cmake_copyright_FOUND TRUE)
   ament_lint_auto_find_test_dependencies()
 endif()
 
