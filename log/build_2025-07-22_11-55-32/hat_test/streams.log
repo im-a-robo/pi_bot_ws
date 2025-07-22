@@ -1,0 +1,22 @@
+[0.016s] Invoking command in '/home/nick/dev/pi_bot_ws/build/hat_test': AMENT_PREFIX_PATH=/home/nick/dev/pi_bot_ws/install/motor_driver:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nick/dev/pi_bot_ws/install/motor_driver:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.archlinux.org _=/usr/bin/env /usr/bin/cmake --build /home/nick/dev/pi_bot_ws/build/hat_test -- -j12 -l12
+[0.091s] [100%] Built target hat_test
+[0.102s] Invoked command in '/home/nick/dev/pi_bot_ws/build/hat_test' returned '0': AMENT_PREFIX_PATH=/home/nick/dev/pi_bot_ws/install/motor_driver:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nick/dev/pi_bot_ws/install/motor_driver:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.archlinux.org _=/usr/bin/env /usr/bin/cmake --build /home/nick/dev/pi_bot_ws/build/hat_test -- -j12 -l12
+[0.104s] Invoking command in '/home/nick/dev/pi_bot_ws/build/hat_test': AMENT_PREFIX_PATH=/home/nick/dev/pi_bot_ws/install/motor_driver:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nick/dev/pi_bot_ws/install/motor_driver:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.archlinux.org _=/usr/bin/env /usr/bin/cmake --install /home/nick/dev/pi_bot_ws/build/hat_test
+[0.112s] -- Install configuration: ""
+[0.113s] -- Up-to-date: /home/nick/dev/pi_bot_ws/install/hat_test/lib/hat_test/hat_test
+[0.113s] -- Up-to-date: /home/nick/dev/pi_bot_ws/install/hat_test/share/ament_index/resource_index/package_run_dependencies/hat_test
+[0.113s] -- Up-to-date: /home/nick/dev/pi_bot_ws/install/hat_test/share/ament_index/resource_index/parent_prefix_path/hat_test
+[0.113s] -- Up-to-date: /home/nick/dev/pi_bot_ws/install/hat_test/share/hat_test/environment/ament_prefix_path.sh
+[0.113s] -- Up-to-date: /home/nick/dev/pi_bot_ws/install/hat_test/share/hat_test/environment/ament_prefix_path.dsv
+[0.114s] -- Up-to-date: /home/nick/dev/pi_bot_ws/install/hat_test/share/hat_test/environment/path.sh
+[0.114s] -- Up-to-date: /home/nick/dev/pi_bot_ws/install/hat_test/share/hat_test/environment/path.dsv
+[0.114s] -- Up-to-date: /home/nick/dev/pi_bot_ws/install/hat_test/share/hat_test/local_setup.bash
+[0.114s] -- Up-to-date: /home/nick/dev/pi_bot_ws/install/hat_test/share/hat_test/local_setup.sh
+[0.114s] -- Up-to-date: /home/nick/dev/pi_bot_ws/install/hat_test/share/hat_test/local_setup.zsh
+[0.114s] -- Up-to-date: /home/nick/dev/pi_bot_ws/install/hat_test/share/hat_test/local_setup.dsv
+[0.114s] -- Installing: /home/nick/dev/pi_bot_ws/install/hat_test/share/hat_test/package.dsv
+[0.114s] -- Up-to-date: /home/nick/dev/pi_bot_ws/install/hat_test/share/ament_index/resource_index/packages/hat_test
+[0.114s] -- Up-to-date: /home/nick/dev/pi_bot_ws/install/hat_test/share/hat_test/cmake/hat_testConfig.cmake
+[0.114s] -- Up-to-date: /home/nick/dev/pi_bot_ws/install/hat_test/share/hat_test/cmake/hat_testConfig-version.cmake
+[0.114s] -- Up-to-date: /home/nick/dev/pi_bot_ws/install/hat_test/share/hat_test/package.xml
+[0.115s] Invoked command in '/home/nick/dev/pi_bot_ws/build/hat_test' returned '0': AMENT_PREFIX_PATH=/home/nick/dev/pi_bot_ws/install/motor_driver:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nick/dev/pi_bot_ws/install/motor_driver:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.archlinux.org _=/usr/bin/env /usr/bin/cmake --install /home/nick/dev/pi_bot_ws/build/hat_test

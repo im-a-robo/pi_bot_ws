@@ -1,7 +1,5 @@
 #include "i2c_comm_cpp/i2c_utils.hpp"
 
-#include <i2c/smbus.h>
-
 #include <cstdint>
 
 I2CDevice::I2CDevice(int addr) {

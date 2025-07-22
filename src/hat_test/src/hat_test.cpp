@@ -20,10 +20,12 @@ class HatTestNode : public rclcpp::Node {
 
    private:
     void timer_callback() {
-        RCLCPP_INFO(this->get_logger(), "Running hat test node");
+        int motor_pwr = 5;
+        RCLCPP_INFO(this->get_logger(), "Running hat test node, setting motor power to %d",
+                    motor_pwr);
 
         auto motor1 = hat_.get_motor(1);
-        motor1->set_power(5);
+        motor1->set_power(motor_pwr);
     }
 
     rclcpp::TimerBase::SharedPtr timer_;

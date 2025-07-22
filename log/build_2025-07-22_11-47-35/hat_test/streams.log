@@ -1,0 +1,21 @@
+[0.017s] Invoking command in '/home/nick/dev/pi_bot_ws/build/hat_test': AMENT_PREFIX_PATH=/home/nick/dev/pi_bot_ws/install/motor_driver:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nick/dev/pi_bot_ws/install/motor_driver:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.archlinux.org _=/usr/bin/env /usr/bin/cmake --build /home/nick/dev/pi_bot_ws/build/hat_test -- -j12 -l12
+[0.089s] [ 50%] [32m[1mLinking CXX executable hat_test[0m
+[0.172s] /usr/bin/ld: /home/nick/dev/pi_bot_ws/install/motor_driver/lib/libmotor_driver.a(i2c_utils.cpp.o): in function `I2CDevice::send_data(unsigned char)':
+[0.173s] i2c_utils.cpp:(.text+0x194): undefined reference to `i2c_smbus_write_byte(int, unsigned char)'
+[0.173s] /usr/bin/ld: /home/nick/dev/pi_bot_ws/install/motor_driver/lib/libmotor_driver.a(i2c_utils.cpp.o): in function `I2CDevice::write_byte(unsigned char, unsigned char)':
+[0.173s] i2c_utils.cpp:(.text+0x20b): undefined reference to `i2c_smbus_write_byte_data(int, unsigned char, unsigned char)'
+[0.173s] /usr/bin/ld: /home/nick/dev/pi_bot_ws/install/motor_driver/lib/libmotor_driver.a(i2c_utils.cpp.o): in function `I2CDevice::write_data(unsigned char, unsigned char, unsigned char const*)':
+[0.173s] i2c_utils.cpp:(.text+0x285): undefined reference to `i2c_smbus_write_block_data(int, unsigned char, unsigned char, unsigned char const*)'
+[0.173s] /usr/bin/ld: /home/nick/dev/pi_bot_ws/install/motor_driver/lib/libmotor_driver.a(i2c_utils.cpp.o): in function `I2CDevice::recive_data(unsigned char*)':
+[0.173s] i2c_utils.cpp:(.text+0x2e9): undefined reference to `i2c_smbus_read_byte(int)'
+[0.173s] /usr/bin/ld: /home/nick/dev/pi_bot_ws/install/motor_driver/lib/libmotor_driver.a(i2c_utils.cpp.o): in function `I2CDevice::read_byte(unsigned char)':
+[0.173s] i2c_utils.cpp:(.text+0x360): undefined reference to `i2c_smbus_read_byte_data(int, unsigned char)'
+[0.173s] /usr/bin/ld: /home/nick/dev/pi_bot_ws/install/motor_driver/lib/libmotor_driver.a(i2c_utils.cpp.o): in function `I2CDevice::read_u_byte(unsigned char)':
+[0.173s] i2c_utils.cpp:(.text+0x3ce): undefined reference to `i2c_smbus_read_byte_data(int, unsigned char)'
+[0.174s] /usr/bin/ld: /home/nick/dev/pi_bot_ws/install/motor_driver/lib/libmotor_driver.a(i2c_utils.cpp.o): in function `I2CDevice::read_data(unsigned char, unsigned char*)':
+[0.174s] i2c_utils.cpp:(.text+0x448): undefined reference to `i2c_smbus_read_block_data(int, unsigned char, unsigned char*)'
+[0.180s] collect2: error: ld returned 1 exit status
+[0.182s] make[2]: *** [CMakeFiles/hat_test.dir/build.make:156: hat_test] Error 1
+[0.183s] make[1]: *** [CMakeFiles/Makefile2:153: CMakeFiles/hat_test.dir/all] Error 2
+[0.183s] make: *** [Makefile:146: all] Error 2
+[0.186s] Invoked command in '/home/nick/dev/pi_bot_ws/build/hat_test' returned '2': AMENT_PREFIX_PATH=/home/nick/dev/pi_bot_ws/install/motor_driver:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nick/dev/pi_bot_ws/install/motor_driver:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.archlinux.org _=/usr/bin/env /usr/bin/cmake --build /home/nick/dev/pi_bot_ws/build/hat_test -- -j12 -l12

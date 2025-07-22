@@ -2,14 +2,14 @@
 #define I2C_UTILS_HPP
 
 #include <fcntl.h>
-#include <i2c/smbus.h>
-#include <linux/i2c-dev.h>
 #include <sys/ioctl.h>
 #include <sys/types.h>
 #include <unistd.h> /* For open(), */
 
 #include <cstdint>
 #include <iostream>
+
+#include "i2c-dev.h"
 
 class I2CDevice {
    private:
