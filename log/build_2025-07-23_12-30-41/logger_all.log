@@ -1,0 +1,210 @@
+[2.001s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[2.002s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0xffffbd2fba60>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffffbd45ca30>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffffbd45ca30>>, mixin_verb=('build',))
+[4.315s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[4.316s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[4.317s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[4.317s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[4.317s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[4.318s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[4.318s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/pi/pi_bot_ws'
+[4.320s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[4.321s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[4.321s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[4.322s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[4.322s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[4.323s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[4.323s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[4.324s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[4.324s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[4.493s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[4.494s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[4.494s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[4.495s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[4.495s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[4.496s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[4.497s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[4.497s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[4.499s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[4.500s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[4.500s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[4.501s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[4.502s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[4.503s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[4.503s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[4.504s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[4.505s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[4.505s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[4.506s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[4.506s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[4.506s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[4.507s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[4.507s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[4.508s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[4.508s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[4.509s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[4.509s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[4.510s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[4.511s] Level 1:colcon.colcon_core.package_identification:_identify(src/hat_test) by extensions ['ignore', 'ignore_ament_install']
+[4.512s] Level 1:colcon.colcon_core.package_identification:_identify(src/hat_test) by extension 'ignore'
+[4.512s] Level 1:colcon.colcon_core.package_identification:_identify(src/hat_test) by extension 'ignore_ament_install'
+[4.513s] Level 1:colcon.colcon_core.package_identification:_identify(src/hat_test) by extensions ['colcon_pkg']
+[4.513s] Level 1:colcon.colcon_core.package_identification:_identify(src/hat_test) by extension 'colcon_pkg'
+[4.513s] Level 1:colcon.colcon_core.package_identification:_identify(src/hat_test) by extensions ['colcon_meta']
+[4.514s] Level 1:colcon.colcon_core.package_identification:_identify(src/hat_test) by extension 'colcon_meta'
+[4.514s] Level 1:colcon.colcon_core.package_identification:_identify(src/hat_test) by extensions ['ros']
+[4.515s] Level 1:colcon.colcon_core.package_identification:_identify(src/hat_test) by extension 'ros'
+[4.540s] DEBUG:colcon.colcon_core.package_identification:Package 'src/hat_test' with type 'ros.ament_cmake' and name 'hat_test'
+[4.542s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_driver) by extensions ['ignore', 'ignore_ament_install']
+[4.542s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_driver) by extension 'ignore'
+[4.543s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_driver) by extension 'ignore_ament_install'
+[4.544s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_driver) by extensions ['colcon_pkg']
+[4.544s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_driver) by extension 'colcon_pkg'
+[4.545s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_driver) by extensions ['colcon_meta']
+[4.545s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_driver) by extension 'colcon_meta'
+[4.545s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_driver) by extensions ['ros']
+[4.546s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_driver) by extension 'ros'
+[4.551s] DEBUG:colcon.colcon_core.package_identification:Package 'src/motor_driver' with type 'ros.ament_cmake' and name 'motor_driver'
+[4.552s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[4.552s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[4.553s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[4.553s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[4.553s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[4.807s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[4.807s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[4.846s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 182 installed packages in /opt/ros/humble
+[4.858s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[5.245s] Level 5:colcon.colcon_core.verb:set package 'motor_driver' build argument 'cmake_args' from command line to 'None'
+[5.246s] Level 5:colcon.colcon_core.verb:set package 'motor_driver' build argument 'cmake_target' from command line to 'None'
+[5.246s] Level 5:colcon.colcon_core.verb:set package 'motor_driver' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[5.246s] Level 5:colcon.colcon_core.verb:set package 'motor_driver' build argument 'cmake_clean_cache' from command line to 'False'
+[5.246s] Level 5:colcon.colcon_core.verb:set package 'motor_driver' build argument 'cmake_clean_first' from command line to 'False'
+[5.247s] Level 5:colcon.colcon_core.verb:set package 'motor_driver' build argument 'cmake_force_configure' from command line to 'False'
+[5.247s] Level 5:colcon.colcon_core.verb:set package 'motor_driver' build argument 'ament_cmake_args' from command line to 'None'
+[5.247s] Level 5:colcon.colcon_core.verb:set package 'motor_driver' build argument 'catkin_cmake_args' from command line to 'None'
+[5.247s] Level 5:colcon.colcon_core.verb:set package 'motor_driver' build argument 'catkin_skip_building_tests' from command line to 'False'
+[5.248s] DEBUG:colcon.colcon_core.verb:Building package 'motor_driver' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pi/pi_bot_ws/build/motor_driver', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pi/pi_bot_ws/install/motor_driver', 'merge_install': False, 'path': '/home/pi/pi_bot_ws/src/motor_driver', 'symlink_install': False, 'test_result_base': None}
+[5.251s] Level 5:colcon.colcon_core.verb:set package 'hat_test' build argument 'cmake_args' from command line to 'None'
+[5.252s] Level 5:colcon.colcon_core.verb:set package 'hat_test' build argument 'cmake_target' from command line to 'None'
+[5.252s] Level 5:colcon.colcon_core.verb:set package 'hat_test' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[5.252s] Level 5:colcon.colcon_core.verb:set package 'hat_test' build argument 'cmake_clean_cache' from command line to 'False'
+[5.253s] Level 5:colcon.colcon_core.verb:set package 'hat_test' build argument 'cmake_clean_first' from command line to 'False'
+[5.253s] Level 5:colcon.colcon_core.verb:set package 'hat_test' build argument 'cmake_force_configure' from command line to 'False'
+[5.253s] Level 5:colcon.colcon_core.verb:set package 'hat_test' build argument 'ament_cmake_args' from command line to 'None'
+[5.253s] Level 5:colcon.colcon_core.verb:set package 'hat_test' build argument 'catkin_cmake_args' from command line to 'None'
+[5.253s] Level 5:colcon.colcon_core.verb:set package 'hat_test' build argument 'catkin_skip_building_tests' from command line to 'False'
+[5.254s] DEBUG:colcon.colcon_core.verb:Building package 'hat_test' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pi/pi_bot_ws/build/hat_test', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pi/pi_bot_ws/install/hat_test', 'merge_install': False, 'path': '/home/pi/pi_bot_ws/src/hat_test', 'symlink_install': False, 'test_result_base': None}
+[5.255s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[5.262s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[5.263s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/pi/pi_bot_ws/src/motor_driver' with build type 'ament_cmake'
+[5.264s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/pi/pi_bot_ws/src/motor_driver'
+[5.305s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[5.308s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.308s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.382s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pi/pi_bot_ws/build/motor_driver': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/pi/pi_bot_ws/src/motor_driver -DCMAKE_INSTALL_PREFIX=/home/pi/pi_bot_ws/install/motor_driver
+[20.667s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pi/pi_bot_ws/build/motor_driver' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/pi/pi_bot_ws/src/motor_driver -DCMAKE_INSTALL_PREFIX=/home/pi/pi_bot_ws/install/motor_driver
+[20.687s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pi/pi_bot_ws/build/motor_driver': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/pi/pi_bot_ws/build/motor_driver -- -j4 -l4
+[30.591s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pi/pi_bot_ws/build/motor_driver' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/pi/pi_bot_ws/build/motor_driver -- -j4 -l4
+[30.669s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pi/pi_bot_ws/build/motor_driver': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/pi/pi_bot_ws/build/motor_driver
+[30.795s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(motor_driver)
+[30.798s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pi/pi_bot_ws/build/motor_driver' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/pi/pi_bot_ws/build/motor_driver
+[30.851s] Level 1:colcon.colcon_core.environment:checking '/home/pi/pi_bot_ws/install/motor_driver' for CMake module files
+[30.860s] Level 1:colcon.colcon_core.environment:checking '/home/pi/pi_bot_ws/install/motor_driver' for CMake config files
+[30.863s] Level 1:colcon.colcon_core.shell:create_environment_hook('motor_driver', 'cmake_prefix_path')
+[30.865s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/pi_bot_ws/install/motor_driver/share/motor_driver/hook/cmake_prefix_path.ps1'
+[30.873s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pi/pi_bot_ws/install/motor_driver/share/motor_driver/hook/cmake_prefix_path.dsv'
+[30.881s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/pi_bot_ws/install/motor_driver/share/motor_driver/hook/cmake_prefix_path.sh'
+[30.892s] Level 1:colcon.colcon_core.environment:checking '/home/pi/pi_bot_ws/install/motor_driver/lib'
+[30.894s] Level 1:colcon.colcon_core.environment:checking '/home/pi/pi_bot_ws/install/motor_driver/bin'
+[30.894s] Level 1:colcon.colcon_core.environment:checking '/home/pi/pi_bot_ws/install/motor_driver/lib/pkgconfig/motor_driver.pc'
+[30.897s] Level 1:colcon.colcon_core.environment:checking '/home/pi/pi_bot_ws/install/motor_driver/lib/python3.10/site-packages'
+[30.900s] Level 1:colcon.colcon_core.environment:checking '/home/pi/pi_bot_ws/install/motor_driver/bin'
+[30.902s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/pi_bot_ws/install/motor_driver/share/motor_driver/package.ps1'
+[30.912s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pi/pi_bot_ws/install/motor_driver/share/motor_driver/package.dsv'
+[30.919s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/pi_bot_ws/install/motor_driver/share/motor_driver/package.sh'
+[30.929s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/pi_bot_ws/install/motor_driver/share/motor_driver/package.bash'
+[30.938s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/pi_bot_ws/install/motor_driver/share/motor_driver/package.zsh'
+[30.949s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pi/pi_bot_ws/install/motor_driver/share/colcon-core/packages/motor_driver)
+[30.955s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(motor_driver)
+[30.957s] Level 1:colcon.colcon_core.environment:checking '/home/pi/pi_bot_ws/install/motor_driver' for CMake module files
+[30.964s] Level 1:colcon.colcon_core.environment:checking '/home/pi/pi_bot_ws/install/motor_driver' for CMake config files
+[30.967s] Level 1:colcon.colcon_core.shell:create_environment_hook('motor_driver', 'cmake_prefix_path')
+[30.969s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/pi_bot_ws/install/motor_driver/share/motor_driver/hook/cmake_prefix_path.ps1'
+[30.973s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pi/pi_bot_ws/install/motor_driver/share/motor_driver/hook/cmake_prefix_path.dsv'
+[30.977s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/pi_bot_ws/install/motor_driver/share/motor_driver/hook/cmake_prefix_path.sh'
+[30.982s] Level 1:colcon.colcon_core.environment:checking '/home/pi/pi_bot_ws/install/motor_driver/lib'
+[30.983s] Level 1:colcon.colcon_core.environment:checking '/home/pi/pi_bot_ws/install/motor_driver/bin'
+[30.984s] Level 1:colcon.colcon_core.environment:checking '/home/pi/pi_bot_ws/install/motor_driver/lib/pkgconfig/motor_driver.pc'
+[30.986s] Level 1:colcon.colcon_core.environment:checking '/home/pi/pi_bot_ws/install/motor_driver/lib/python3.10/site-packages'
+[30.989s] Level 1:colcon.colcon_core.environment:checking '/home/pi/pi_bot_ws/install/motor_driver/bin'
+[30.991s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/pi_bot_ws/install/motor_driver/share/motor_driver/package.ps1'
+[30.996s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pi/pi_bot_ws/install/motor_driver/share/motor_driver/package.dsv'
+[31.001s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/pi_bot_ws/install/motor_driver/share/motor_driver/package.sh'
+[31.006s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/pi_bot_ws/install/motor_driver/share/motor_driver/package.bash'
+[31.010s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/pi_bot_ws/install/motor_driver/share/motor_driver/package.zsh'
+[31.016s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pi/pi_bot_ws/install/motor_driver/share/colcon-core/packages/motor_driver)
+[31.019s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/pi/pi_bot_ws/src/hat_test' with build type 'ament_cmake'
+[31.021s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/pi/pi_bot_ws/src/hat_test'
+[31.023s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[31.024s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[31.097s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pi/pi_bot_ws/build/hat_test': AMENT_PREFIX_PATH=/home/pi/pi_bot_ws/install/motor_driver:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pi/pi_bot_ws/install/motor_driver:/opt/ros/humble /usr/bin/cmake /home/pi/pi_bot_ws/src/hat_test -DCMAKE_INSTALL_PREFIX=/home/pi/pi_bot_ws/install/hat_test
+[42.658s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pi/pi_bot_ws/build/hat_test' returned '0': AMENT_PREFIX_PATH=/home/pi/pi_bot_ws/install/motor_driver:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pi/pi_bot_ws/install/motor_driver:/opt/ros/humble /usr/bin/cmake /home/pi/pi_bot_ws/src/hat_test -DCMAKE_INSTALL_PREFIX=/home/pi/pi_bot_ws/install/hat_test
+[42.676s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pi/pi_bot_ws/build/hat_test': AMENT_PREFIX_PATH=/home/pi/pi_bot_ws/install/motor_driver:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pi/pi_bot_ws/install/motor_driver:/opt/ros/humble /usr/bin/cmake --build /home/pi/pi_bot_ws/build/hat_test -- -j4 -l4
+[73.206s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pi/pi_bot_ws/build/hat_test' returned '0': AMENT_PREFIX_PATH=/home/pi/pi_bot_ws/install/motor_driver:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pi/pi_bot_ws/install/motor_driver:/opt/ros/humble /usr/bin/cmake --build /home/pi/pi_bot_ws/build/hat_test -- -j4 -l4
+[73.227s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pi/pi_bot_ws/build/hat_test': AMENT_PREFIX_PATH=/home/pi/pi_bot_ws/install/motor_driver:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pi/pi_bot_ws/install/motor_driver:/opt/ros/humble /usr/bin/cmake --install /home/pi/pi_bot_ws/build/hat_test
+[73.347s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(hat_test)
+[73.350s] Level 1:colcon.colcon_core.environment:checking '/home/pi/pi_bot_ws/install/hat_test' for CMake module files
+[73.354s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pi/pi_bot_ws/build/hat_test' returned '0': AMENT_PREFIX_PATH=/home/pi/pi_bot_ws/install/motor_driver:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pi/pi_bot_ws/install/motor_driver:/opt/ros/humble /usr/bin/cmake --install /home/pi/pi_bot_ws/build/hat_test
+[73.359s] Level 1:colcon.colcon_core.environment:checking '/home/pi/pi_bot_ws/install/hat_test' for CMake config files
+[73.363s] Level 1:colcon.colcon_core.shell:create_environment_hook('hat_test', 'cmake_prefix_path')
+[73.365s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/pi_bot_ws/install/hat_test/share/hat_test/hook/cmake_prefix_path.ps1'
+[73.370s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pi/pi_bot_ws/install/hat_test/share/hat_test/hook/cmake_prefix_path.dsv'
+[73.374s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/pi_bot_ws/install/hat_test/share/hat_test/hook/cmake_prefix_path.sh'
+[73.380s] Level 1:colcon.colcon_core.environment:checking '/home/pi/pi_bot_ws/install/hat_test/lib'
+[73.381s] Level 1:colcon.colcon_core.environment:checking '/home/pi/pi_bot_ws/install/hat_test/bin'
+[73.381s] Level 1:colcon.colcon_core.environment:checking '/home/pi/pi_bot_ws/install/hat_test/lib/pkgconfig/hat_test.pc'
+[73.384s] Level 1:colcon.colcon_core.environment:checking '/home/pi/pi_bot_ws/install/hat_test/lib/python3.10/site-packages'
+[73.386s] Level 1:colcon.colcon_core.environment:checking '/home/pi/pi_bot_ws/install/hat_test/bin'
+[73.389s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/pi_bot_ws/install/hat_test/share/hat_test/package.ps1'
+[73.393s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pi/pi_bot_ws/install/hat_test/share/hat_test/package.dsv'
+[73.397s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/pi_bot_ws/install/hat_test/share/hat_test/package.sh'
+[73.401s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/pi_bot_ws/install/hat_test/share/hat_test/package.bash'
+[73.406s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/pi_bot_ws/install/hat_test/share/hat_test/package.zsh'
+[73.410s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pi/pi_bot_ws/install/hat_test/share/colcon-core/packages/hat_test)
+[73.416s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(hat_test)
+[73.418s] Level 1:colcon.colcon_core.environment:checking '/home/pi/pi_bot_ws/install/hat_test' for CMake module files
+[73.424s] Level 1:colcon.colcon_core.environment:checking '/home/pi/pi_bot_ws/install/hat_test' for CMake config files
+[73.427s] Level 1:colcon.colcon_core.shell:create_environment_hook('hat_test', 'cmake_prefix_path')
+[73.429s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/pi_bot_ws/install/hat_test/share/hat_test/hook/cmake_prefix_path.ps1'
+[73.433s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pi/pi_bot_ws/install/hat_test/share/hat_test/hook/cmake_prefix_path.dsv'
+[73.438s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pi/pi_bot_ws/install/hat_test/share/hat_test/hook/cmake_prefix_path.sh'
+[73.444s] Level 1:colcon.colcon_core.environment:checking '/home/pi/pi_bot_ws/install/hat_test/lib'
+[73.445s] Level 1:colcon.colcon_core.environment:checking '/home/pi/pi_bot_ws/install/hat_test/bin'
+[73.446s] Level 1:colcon.colcon_core.environment:checking '/home/pi/pi_bot_ws/install/hat_test/lib/pkgconfig/hat_test.pc'
+[73.448s] Level 1:colcon.colcon_core.environment:checking '/home/pi/pi_bot_ws/install/hat_test/lib/python3.10/site-packages'
+[73.450s] Level 1:colcon.colcon_core.environment:checking '/home/pi/pi_bot_ws/install/hat_test/bin'
+[73.453s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/pi_bot_ws/install/hat_test/share/hat_test/package.ps1'
+[73.457s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pi/pi_bot_ws/install/hat_test/share/hat_test/package.dsv'
+[73.462s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/pi_bot_ws/install/hat_test/share/hat_test/package.sh'
+[73.467s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/pi_bot_ws/install/hat_test/share/hat_test/package.bash'
+[73.472s] INFO:colcon.colcon_core.shell:Creating package script '/home/pi/pi_bot_ws/install/hat_test/share/hat_test/package.zsh'
+[73.477s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pi/pi_bot_ws/install/hat_test/share/colcon-core/packages/hat_test)
+[73.479s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[73.482s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[73.483s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[73.484s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[73.571s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[73.572s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[73.573s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[73.573s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[73.715s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[73.716s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[73.718s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pi/pi_bot_ws/install/local_setup.ps1'
+[73.729s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/pi/pi_bot_ws/install/_local_setup_util_ps1.py'
+[73.747s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pi/pi_bot_ws/install/setup.ps1'
+[73.758s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pi/pi_bot_ws/install/local_setup.sh'
+[73.765s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/pi/pi_bot_ws/install/_local_setup_util_sh.py'
+[73.772s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pi/pi_bot_ws/install/setup.sh'
+[73.783s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pi/pi_bot_ws/install/local_setup.bash'
+[73.789s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pi/pi_bot_ws/install/setup.bash'
+[73.800s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pi/pi_bot_ws/install/local_setup.zsh'
+[73.807s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pi/pi_bot_ws/install/setup.zsh'

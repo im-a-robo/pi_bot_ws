@@ -12,8 +12,8 @@ set_target_properties(motor_driver::motor_driver PROPERTIES
   IMPORTED_LOCATION_NOCONFIG "${_IMPORT_PREFIX}/lib/libmotor_driver.a"
   )
 
-list(APPEND _cmake_import_check_targets motor_driver::motor_driver )
-list(APPEND _cmake_import_check_files_for_motor_driver::motor_driver "${_IMPORT_PREFIX}/lib/libmotor_driver.a" )
+list(APPEND _IMPORT_CHECK_TARGETS motor_driver::motor_driver )
+list(APPEND _IMPORT_CHECK_FILES_FOR_motor_driver::motor_driver "${_IMPORT_PREFIX}/lib/libmotor_driver.a" )
 
 # Commands beyond this point should not need to know the version.
 set(CMAKE_IMPORT_FILE_VERSION)

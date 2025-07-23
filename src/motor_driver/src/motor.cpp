@@ -11,6 +11,7 @@ Motor::Motor(MotorHat* hat, int motor_channel) : hat(hat) {
             this->pwm = 8;
             this->in2 = 9;
             this->in1 = 10;
+	    break;
         case 1:
             this->pwm = 13;
             this->in2 = 12;
@@ -42,9 +43,12 @@ void Motor::set_power(int pwr) {
         set_direction(Command::FORWARD);
     }
 
-    uint16_t pwm_off = std::abs(pwr) / 100 * 4096;
+    double pwm_off = (std::abs(pwr) / 100.0);
+    std::cout << pwm_off << " " << pwr << std::endl;
+    pwm_off *= 4096.0;
+    std::cout << pwm_off << " " << pwr << std::endl;
 
-    this->hat->pwm.set_pwm(this->pwm, 0, pwm_off);
+    this->hat->pwm.set_pwm(this->pwm, 0, (uint16_t)pwm_off);
 }
 
 void Motor::stop() {

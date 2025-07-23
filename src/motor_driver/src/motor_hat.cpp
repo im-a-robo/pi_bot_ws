@@ -1,4 +1,3 @@
-
 #include "motor_driver/motor_hat.hpp"
 
 #include <memory>
@@ -6,7 +5,7 @@
 MotorHat::MotorHat(int i2c_addr, int freq) : pwm(i2c_addr) {
     // setup motors
     for (int i = 0; i < 4; i++) {
-        motors[i] = std::make_shared<Motor>(this, i);
+        motors.push_back(std::make_shared<Motor>(this, i));
     }
     this->pwm.set_pwm_freq(freq);
 }

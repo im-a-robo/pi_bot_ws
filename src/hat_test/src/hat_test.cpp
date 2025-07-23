@@ -20,7 +20,7 @@ class HatTestNode : public rclcpp::Node {
 
    private:
     void timer_callback() {
-        int motor_pwr = 5;
+        motor_pwr = (motor_pwr + 1) % 50;
         RCLCPP_INFO(this->get_logger(), "Running hat test node, setting motor power to %d",
                     motor_pwr);
 
@@ -29,6 +29,7 @@ class HatTestNode : public rclcpp::Node {
     }
 
     rclcpp::TimerBase::SharedPtr timer_;
+    int motor_pwr = 0;
     MotorHat hat_;
 };
 

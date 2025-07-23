@@ -1,0 +1,87 @@
+[0.108s] Invoking command in '/home/pi/pi_bot_ws/build/motor_driver': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/pi/pi_bot_ws/src/motor_driver -DCMAKE_INSTALL_PREFIX=/home/pi/pi_bot_ws/install/motor_driver
+[2.340s] -- The C compiler identification is GNU 11.4.0
+[3.731s] -- The CXX compiler identification is GNU 11.4.0
+[3.822s] -- Detecting C compiler ABI info
+[4.558s] -- Detecting C compiler ABI info - done
+[4.625s] -- Check for working C compiler: /usr/bin/cc - skipped
+[4.629s] -- Detecting C compile features
+[4.634s] -- Detecting C compile features - done
+[4.669s] -- Detecting CXX compiler ABI info
+[5.401s] -- Detecting CXX compiler ABI info - done
+[5.471s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[5.473s] -- Detecting CXX compile features
+[5.477s] -- Detecting CXX compile features - done
+[5.547s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[7.073s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[8.200s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[8.855s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[8.939s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[9.075s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[9.259s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[9.486s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[10.132s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[10.178s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[11.145s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[11.410s] -- Found FastRTPS: /opt/ros/humble/include  
+[11.815s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[11.948s] -- Looking for pthread.h
+[12.669s] -- Looking for pthread.h - found
+[12.673s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[13.361s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[13.370s] -- Found Threads: TRUE  
+[14.095s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[15.056s] -- Added test 'copyright' to check source files copyright and LICENSE
+[15.082s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[15.084s] -- Configured cppcheck include dirs: /home/pi/pi_bot_ws/src/motor_driver/include;$<BUILD_INTERFACE:/home/pi/pi_bot_ws/src/motor_driver/include>
+[15.085s] -- Configured cppcheck exclude dirs and/or files: 
+[15.105s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[15.106s] -- Configured cpplint exclude dirs and/or files: 
+[15.118s] -- Added test 'lint_cmake' to check CMake code style
+[15.143s] -- Added test 'uncrustify' to check C / C++ code style
+[15.145s] -- Configured uncrustify additional arguments: 
+[15.150s] -- Added test 'xmllint' to check XML markup files
+[15.176s] -- Configuring done
+[15.301s] -- Generating done
+[15.332s] -- Build files have been written to: /home/pi/pi_bot_ws/build/motor_driver
+[15.398s] Invoked command in '/home/pi/pi_bot_ws/build/motor_driver' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/pi/pi_bot_ws/src/motor_driver -DCMAKE_INSTALL_PREFIX=/home/pi/pi_bot_ws/install/motor_driver
+[15.414s] Invoking command in '/home/pi/pi_bot_ws/build/motor_driver': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/pi/pi_bot_ws/build/motor_driver -- -j4 -l4
+[15.822s] [ 20%] [32mBuilding CXX object CMakeFiles/motor_driver.dir/src/i2c_utils.cpp.o[0m
+[15.825s] [ 40%] [32mBuilding CXX object CMakeFiles/motor_driver.dir/src/motor.cpp.o[0m
+[15.831s] [ 60%] [32mBuilding CXX object CMakeFiles/motor_driver.dir/src/motor_hat.cpp.o[0m
+[15.835s] [ 80%] [32mBuilding CXX object CMakeFiles/motor_driver.dir/src/pwm_driver.cpp.o[0m
+[24.970s] [100%] [32m[1mLinking CXX static library libmotor_driver.a[0m
+[25.245s] [100%] Built target motor_driver
+[25.323s] Invoked command in '/home/pi/pi_bot_ws/build/motor_driver' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/pi/pi_bot_ws/build/motor_driver -- -j4 -l4
+[25.396s] Invoking command in '/home/pi/pi_bot_ws/build/motor_driver': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/pi/pi_bot_ws/build/motor_driver
+[25.454s] -- Install configuration: ""
+[25.455s] -- Installing: /home/pi/pi_bot_ws/install/motor_driver/lib/libmotor_driver.a
+[25.460s] -- Up-to-date: /home/pi/pi_bot_ws/install/motor_driver/include/
+[25.462s] -- Up-to-date: /home/pi/pi_bot_ws/install/motor_driver/include//motor_driver
+[25.463s] -- Up-to-date: /home/pi/pi_bot_ws/install/motor_driver/include//motor_driver/motor_hat.hpp
+[25.464s] -- Up-to-date: /home/pi/pi_bot_ws/install/motor_driver/include//motor_driver/pwm_driver.hpp
+[25.465s] -- Up-to-date: /home/pi/pi_bot_ws/install/motor_driver/include//motor_driver/motor.hpp
+[25.466s] -- Up-to-date: /home/pi/pi_bot_ws/install/motor_driver/include//i2c_comm_cpp
+[25.466s] -- Up-to-date: /home/pi/pi_bot_ws/install/motor_driver/include//i2c_comm_cpp/i2c-dev.h
+[25.467s] -- Up-to-date: /home/pi/pi_bot_ws/install/motor_driver/include//i2c_comm_cpp/i2c_utils.hpp
+[25.469s] -- Installing: /home/pi/pi_bot_ws/install/motor_driver/share/ament_index/resource_index/package_run_dependencies/motor_driver
+[25.469s] -- Installing: /home/pi/pi_bot_ws/install/motor_driver/share/ament_index/resource_index/parent_prefix_path/motor_driver
+[25.471s] -- Installing: /home/pi/pi_bot_ws/install/motor_driver/share/motor_driver/environment/ament_prefix_path.sh
+[25.473s] -- Installing: /home/pi/pi_bot_ws/install/motor_driver/share/motor_driver/environment/ament_prefix_path.dsv
+[25.476s] -- Installing: /home/pi/pi_bot_ws/install/motor_driver/share/motor_driver/environment/path.sh
+[25.479s] -- Installing: /home/pi/pi_bot_ws/install/motor_driver/share/motor_driver/environment/path.dsv
+[25.481s] -- Installing: /home/pi/pi_bot_ws/install/motor_driver/share/motor_driver/local_setup.bash
+[25.484s] -- Installing: /home/pi/pi_bot_ws/install/motor_driver/share/motor_driver/local_setup.sh
+[25.486s] -- Installing: /home/pi/pi_bot_ws/install/motor_driver/share/motor_driver/local_setup.zsh
+[25.489s] -- Installing: /home/pi/pi_bot_ws/install/motor_driver/share/motor_driver/local_setup.dsv
+[25.491s] -- Installing: /home/pi/pi_bot_ws/install/motor_driver/share/motor_driver/package.dsv
+[25.494s] -- Installing: /home/pi/pi_bot_ws/install/motor_driver/share/ament_index/resource_index/packages/motor_driver
+[25.497s] -- Old export file "/home/pi/pi_bot_ws/install/motor_driver/share/motor_driver/cmake/export_motor_driverExport.cmake" will be replaced.  Removing files [/home/pi/pi_bot_ws/install/motor_driver/share/motor_driver/cmake/export_motor_driverExport-noconfig.cmake].
+[25.498s] -- Installing: /home/pi/pi_bot_ws/install/motor_driver/share/motor_driver/cmake/export_motor_driverExport.cmake
+[25.501s] -- Installing: /home/pi/pi_bot_ws/install/motor_driver/share/motor_driver/cmake/export_motor_driverExport-noconfig.cmake
+[25.504s] -- Installing: /home/pi/pi_bot_ws/install/motor_driver/share/motor_driver/cmake/ament_cmake_export_include_directories-extras.cmake
+[25.507s] -- Installing: /home/pi/pi_bot_ws/install/motor_driver/share/motor_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+[25.509s] -- Installing: /home/pi/pi_bot_ws/install/motor_driver/share/motor_driver/cmake/ament_cmake_export_targets-extras.cmake
+[25.512s] -- Installing: /home/pi/pi_bot_ws/install/motor_driver/share/motor_driver/cmake/motor_driverConfig.cmake
+[25.515s] -- Installing: /home/pi/pi_bot_ws/install/motor_driver/share/motor_driver/cmake/motor_driverConfig-version.cmake
+[25.517s] -- Up-to-date: /home/pi/pi_bot_ws/install/motor_driver/share/motor_driver/package.xml
+[25.529s] Invoked command in '/home/pi/pi_bot_ws/build/motor_driver' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/pi/pi_bot_ws/build/motor_driver
