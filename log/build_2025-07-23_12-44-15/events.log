@@ -1,0 +1,380 @@
+[0.000000] (-) TimerEvent: {}
+[0.002651] (motor_driver) JobQueued: {'identifier': 'motor_driver', 'dependencies': OrderedDict()}
+[0.003148] (hat_test) JobQueued: {'identifier': 'hat_test', 'dependencies': OrderedDict([('motor_driver', '/home/pi/pi_bot_ws/install/motor_driver')])}
+[0.003875] (motor_driver) JobStarted: {'identifier': 'motor_driver'}
+[0.076347] (motor_driver) JobProgress: {'identifier': 'motor_driver', 'progress': 'cmake'}
+[0.083173] (motor_driver) JobProgress: {'identifier': 'motor_driver', 'progress': 'build'}
+[0.090482] (motor_driver) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/pi/pi_bot_ws/build/motor_driver', '--', '-j4', '-l4'], 'cwd': '/home/pi/pi_bot_ws/build/motor_driver', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pi'), ('SSH_CLIENT', '2601:40f:4400:57d0::91da 43882 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/pi'), ('OLDPWD', '/home/pi'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/pi/pi_bot_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-kitty'), ('XDG_SESSION_ID', '6'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/pi/pi_bot_ws/install/hat_test:/home/pi/pi_bot_ws/install/motor_driver:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/pi/pi_bot_ws/build/motor_driver'), ('SSH_CONNECTION', '2601:40f:4400:57d0::91da 43882 2601:40f:4400:57d0::fc2f 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/pi/pi_bot_ws/install/hat_test:/home/pi/pi_bot_ws/install/motor_driver:/opt/ros/humble')]), 'shell': False}
+[0.120794] (-) TimerEvent: {}
+[0.221921] (-) TimerEvent: {}
+[0.323187] (-) TimerEvent: {}
+[0.424555] (-) TimerEvent: {}
+[0.525792] (-) TimerEvent: {}
+[0.542708] (motor_driver) StdoutLine: {'line': b'[100%] Built target motor_driver\n'}
+[0.619710] (motor_driver) CommandEnded: {'returncode': 0}
+[0.624191] (motor_driver) JobProgress: {'identifier': 'motor_driver', 'progress': 'install'}
+[0.628861] (-) TimerEvent: {}
+[0.692327] (motor_driver) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/pi/pi_bot_ws/build/motor_driver'], 'cwd': '/home/pi/pi_bot_ws/build/motor_driver', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pi'), ('SSH_CLIENT', '2601:40f:4400:57d0::91da 43882 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/pi'), ('OLDPWD', '/home/pi'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/pi/pi_bot_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-kitty'), ('XDG_SESSION_ID', '6'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/pi/pi_bot_ws/install/hat_test:/home/pi/pi_bot_ws/install/motor_driver:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/pi/pi_bot_ws/build/motor_driver'), ('SSH_CONNECTION', '2601:40f:4400:57d0::91da 43882 2601:40f:4400:57d0::fc2f 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/pi/pi_bot_ws/install/hat_test:/home/pi/pi_bot_ws/install/motor_driver:/opt/ros/humble')]), 'shell': False}
+[0.729723] (-) TimerEvent: {}
+[0.751540] (motor_driver) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.753136] (motor_driver) StdoutLine: {'line': b'-- Up-to-date: /home/pi/pi_bot_ws/install/motor_driver/lib/libmotor_driver.a\n'}
+[0.754254] (motor_driver) StdoutLine: {'line': b'-- Up-to-date: /home/pi/pi_bot_ws/install/motor_driver/include/\n'}
+[0.755706] (motor_driver) StdoutLine: {'line': b'-- Up-to-date: /home/pi/pi_bot_ws/install/motor_driver/include//motor_driver\n'}
+[0.757089] (motor_driver) StdoutLine: {'line': b'-- Up-to-date: /home/pi/pi_bot_ws/install/motor_driver/include//motor_driver/motor_hat.hpp\n'}
+[0.758235] (motor_driver) StdoutLine: {'line': b'-- Up-to-date: /home/pi/pi_bot_ws/install/motor_driver/include//motor_driver/pwm_driver.hpp\n'}
+[0.759598] (motor_driver) StdoutLine: {'line': b'-- Up-to-date: /home/pi/pi_bot_ws/install/motor_driver/include//motor_driver/motor.hpp\n'}
+[0.760883] (motor_driver) StdoutLine: {'line': b'-- Up-to-date: /home/pi/pi_bot_ws/install/motor_driver/include//i2c_comm_cpp\n'}
+[0.762218] (motor_driver) StdoutLine: {'line': b'-- Up-to-date: /home/pi/pi_bot_ws/install/motor_driver/include//i2c_comm_cpp/i2c-dev.h\n'}
+[0.763383] (motor_driver) StdoutLine: {'line': b'-- Up-to-date: /home/pi/pi_bot_ws/install/motor_driver/include//i2c_comm_cpp/i2c_utils.hpp\n'}
+[0.764806] (motor_driver) StdoutLine: {'line': b'-- Up-to-date: /home/pi/pi_bot_ws/install/motor_driver/share/ament_index/resource_index/package_run_dependencies/motor_driver\n'}
+[0.766087] (motor_driver) StdoutLine: {'line': b'-- Up-to-date: /home/pi/pi_bot_ws/install/motor_driver/share/ament_index/resource_index/parent_prefix_path/motor_driver\n'}
+[0.767040] (motor_driver) StdoutLine: {'line': b'-- Up-to-date: /home/pi/pi_bot_ws/install/motor_driver/share/motor_driver/environment/ament_prefix_path.sh\n'}
+[0.767980] (motor_driver) StdoutLine: {'line': b'-- Up-to-date: /home/pi/pi_bot_ws/install/motor_driver/share/motor_driver/environment/ament_prefix_path.dsv\n'}
+[0.769276] (motor_driver) StdoutLine: {'line': b'-- Up-to-date: /home/pi/pi_bot_ws/install/motor_driver/share/motor_driver/environment/path.sh\n'}
+[0.770179] (motor_driver) StdoutLine: {'line': b'-- Up-to-date: /home/pi/pi_bot_ws/install/motor_driver/share/motor_driver/environment/path.dsv\n'}
+[0.771327] (motor_driver) StdoutLine: {'line': b'-- Up-to-date: /home/pi/pi_bot_ws/install/motor_driver/share/motor_driver/local_setup.bash\n'}
+[0.772765] (motor_driver) StdoutLine: {'line': b'-- Up-to-date: /home/pi/pi_bot_ws/install/motor_driver/share/motor_driver/local_setup.sh\n'}
+[0.773888] (motor_driver) StdoutLine: {'line': b'-- Up-to-date: /home/pi/pi_bot_ws/install/motor_driver/share/motor_driver/local_setup.zsh\n'}
+[0.774986] (motor_driver) StdoutLine: {'line': b'-- Up-to-date: /home/pi/pi_bot_ws/install/motor_driver/share/motor_driver/local_setup.dsv\n'}
+[0.776459] (motor_driver) StdoutLine: {'line': b'-- Installing: /home/pi/pi_bot_ws/install/motor_driver/share/motor_driver/package.dsv\n'}
+[0.777497] (motor_driver) StdoutLine: {'line': b'-- Up-to-date: /home/pi/pi_bot_ws/install/motor_driver/share/ament_index/resource_index/packages/motor_driver\n'}
+[0.778432] (motor_driver) StdoutLine: {'line': b'-- Up-to-date: /home/pi/pi_bot_ws/install/motor_driver/share/motor_driver/cmake/export_motor_driverExport.cmake\n'}
+[0.779309] (motor_driver) StdoutLine: {'line': b'-- Up-to-date: /home/pi/pi_bot_ws/install/motor_driver/share/motor_driver/cmake/export_motor_driverExport-noconfig.cmake\n'}
+[0.780339] (motor_driver) StdoutLine: {'line': b'-- Up-to-date: /home/pi/pi_bot_ws/install/motor_driver/share/motor_driver/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[0.781290] (motor_driver) StdoutLine: {'line': b'-- Up-to-date: /home/pi/pi_bot_ws/install/motor_driver/share/motor_driver/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[0.782071] (motor_driver) StdoutLine: {'line': b'-- Up-to-date: /home/pi/pi_bot_ws/install/motor_driver/share/motor_driver/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[0.782844] (motor_driver) StdoutLine: {'line': b'-- Up-to-date: /home/pi/pi_bot_ws/install/motor_driver/share/motor_driver/cmake/motor_driverConfig.cmake\n'}
+[0.783729] (motor_driver) StdoutLine: {'line': b'-- Up-to-date: /home/pi/pi_bot_ws/install/motor_driver/share/motor_driver/cmake/motor_driverConfig-version.cmake\n'}
+[0.784726] (motor_driver) StdoutLine: {'line': b'-- Up-to-date: /home/pi/pi_bot_ws/install/motor_driver/share/motor_driver/package.xml\n'}
+[0.789496] (motor_driver) CommandEnded: {'returncode': 0}
+[0.831317] (-) TimerEvent: {}
+[0.932598] (-) TimerEvent: {}
+[0.963779] (motor_driver) JobEnded: {'identifier': 'motor_driver', 'rc': 0}
+[0.973184] (hat_test) JobStarted: {'identifier': 'hat_test'}
+[1.027655] (hat_test) JobProgress: {'identifier': 'hat_test', 'progress': 'cmake'}
+[1.032867] (-) TimerEvent: {}
+[1.035327] (hat_test) JobProgress: {'identifier': 'hat_test', 'progress': 'build'}
+[1.038087] (hat_test) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/pi/pi_bot_ws/build/hat_test', '--', '-j4', '-l4'], 'cwd': '/home/pi/pi_bot_ws/build/hat_test', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pi'), ('SSH_CLIENT', '2601:40f:4400:57d0::91da 43882 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/pi'), ('OLDPWD', '/home/pi'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/pi/pi_bot_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-kitty'), ('XDG_SESSION_ID', '6'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/pi/pi_bot_ws/install/hat_test:/home/pi/pi_bot_ws/install/motor_driver:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/pi/pi_bot_ws/build/hat_test'), ('SSH_CONNECTION', '2601:40f:4400:57d0::91da 43882 2601:40f:4400:57d0::fc2f 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/pi/pi_bot_ws/install/motor_driver:/home/pi/pi_bot_ws/install/hat_test:/opt/ros/humble')]), 'shell': False}
+[1.133188] (-) TimerEvent: {}
+[1.234579] (-) TimerEvent: {}
+[1.335909] (-) TimerEvent: {}
+[1.388981] (hat_test) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target hat_test\x1b[0m\n'}
+[1.436138] (-) TimerEvent: {}
+[1.537277] (-) TimerEvent: {}
+[1.571459] (hat_test) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/hat_test.dir/src/hat_test.cpp.o\x1b[0m\n'}
+[1.637593] (-) TimerEvent: {}
+[1.738815] (-) TimerEvent: {}
+[1.840018] (-) TimerEvent: {}
+[1.941146] (-) TimerEvent: {}
+[2.042265] (-) TimerEvent: {}
+[2.143432] (-) TimerEvent: {}
+[2.244636] (-) TimerEvent: {}
+[2.345752] (-) TimerEvent: {}
+[2.446928] (-) TimerEvent: {}
+[2.548155] (-) TimerEvent: {}
+[2.649295] (-) TimerEvent: {}
+[2.750496] (-) TimerEvent: {}
+[2.851650] (-) TimerEvent: {}
+[2.952881] (-) TimerEvent: {}
+[3.054027] (-) TimerEvent: {}
+[3.155157] (-) TimerEvent: {}
+[3.256380] (-) TimerEvent: {}
+[3.357516] (-) TimerEvent: {}
+[3.458637] (-) TimerEvent: {}
+[3.559811] (-) TimerEvent: {}
+[3.661089] (-) TimerEvent: {}
+[3.762290] (-) TimerEvent: {}
+[3.863424] (-) TimerEvent: {}
+[3.964610] (-) TimerEvent: {}
+[4.065721] (-) TimerEvent: {}
+[4.166853] (-) TimerEvent: {}
+[4.268084] (-) TimerEvent: {}
+[4.369547] (-) TimerEvent: {}
+[4.470840] (-) TimerEvent: {}
+[4.572366] (-) TimerEvent: {}
+[4.673485] (-) TimerEvent: {}
+[4.774616] (-) TimerEvent: {}
+[4.875775] (-) TimerEvent: {}
+[4.976987] (-) TimerEvent: {}
+[5.078315] (-) TimerEvent: {}
+[5.179630] (-) TimerEvent: {}
+[5.281039] (-) TimerEvent: {}
+[5.382368] (-) TimerEvent: {}
+[5.483704] (-) TimerEvent: {}
+[5.585199] (-) TimerEvent: {}
+[5.686534] (-) TimerEvent: {}
+[5.788005] (-) TimerEvent: {}
+[5.889311] (-) TimerEvent: {}
+[5.990629] (-) TimerEvent: {}
+[6.091996] (-) TimerEvent: {}
+[6.193294] (-) TimerEvent: {}
+[6.294620] (-) TimerEvent: {}
+[6.396010] (-) TimerEvent: {}
+[6.497326] (-) TimerEvent: {}
+[6.598687] (-) TimerEvent: {}
+[6.700088] (-) TimerEvent: {}
+[6.801402] (-) TimerEvent: {}
+[6.902734] (-) TimerEvent: {}
+[7.004015] (-) TimerEvent: {}
+[7.105301] (-) TimerEvent: {}
+[7.206574] (-) TimerEvent: {}
+[7.307871] (-) TimerEvent: {}
+[7.409209] (-) TimerEvent: {}
+[7.510481] (-) TimerEvent: {}
+[7.611802] (-) TimerEvent: {}
+[7.713137] (-) TimerEvent: {}
+[7.814495] (-) TimerEvent: {}
+[7.915775] (-) TimerEvent: {}
+[8.017160] (-) TimerEvent: {}
+[8.118456] (-) TimerEvent: {}
+[8.219768] (-) TimerEvent: {}
+[8.321050] (-) TimerEvent: {}
+[8.422321] (-) TimerEvent: {}
+[8.523666] (-) TimerEvent: {}
+[8.625012] (-) TimerEvent: {}
+[8.726316] (-) TimerEvent: {}
+[8.827620] (-) TimerEvent: {}
+[8.929011] (-) TimerEvent: {}
+[9.030341] (-) TimerEvent: {}
+[9.131644] (-) TimerEvent: {}
+[9.232954] (-) TimerEvent: {}
+[9.334234] (-) TimerEvent: {}
+[9.435630] (-) TimerEvent: {}
+[9.542458] (-) TimerEvent: {}
+[9.643795] (-) TimerEvent: {}
+[9.745179] (-) TimerEvent: {}
+[9.846527] (-) TimerEvent: {}
+[9.947806] (-) TimerEvent: {}
+[10.049188] (-) TimerEvent: {}
+[10.150495] (-) TimerEvent: {}
+[10.251776] (-) TimerEvent: {}
+[10.353109] (-) TimerEvent: {}
+[10.454387] (-) TimerEvent: {}
+[10.555718] (-) TimerEvent: {}
+[10.657071] (-) TimerEvent: {}
+[10.758332] (-) TimerEvent: {}
+[10.859644] (-) TimerEvent: {}
+[10.960942] (-) TimerEvent: {}
+[11.062247] (-) TimerEvent: {}
+[11.163599] (-) TimerEvent: {}
+[11.264970] (-) TimerEvent: {}
+[11.366316] (-) TimerEvent: {}
+[11.467575] (-) TimerEvent: {}
+[11.569088] (-) TimerEvent: {}
+[11.670395] (-) TimerEvent: {}
+[11.771698] (-) TimerEvent: {}
+[11.873097] (-) TimerEvent: {}
+[11.974402] (-) TimerEvent: {}
+[12.075716] (-) TimerEvent: {}
+[12.177105] (-) TimerEvent: {}
+[12.278464] (-) TimerEvent: {}
+[12.379725] (-) TimerEvent: {}
+[12.481033] (-) TimerEvent: {}
+[12.582263] (-) TimerEvent: {}
+[12.683602] (-) TimerEvent: {}
+[12.784958] (-) TimerEvent: {}
+[12.886283] (-) TimerEvent: {}
+[12.987574] (-) TimerEvent: {}
+[13.088979] (-) TimerEvent: {}
+[13.190286] (-) TimerEvent: {}
+[13.291649] (-) TimerEvent: {}
+[13.393008] (-) TimerEvent: {}
+[13.494349] (-) TimerEvent: {}
+[13.595635] (-) TimerEvent: {}
+[13.696965] (-) TimerEvent: {}
+[13.798264] (-) TimerEvent: {}
+[13.899609] (-) TimerEvent: {}
+[14.000956] (-) TimerEvent: {}
+[14.102299] (-) TimerEvent: {}
+[14.203640] (-) TimerEvent: {}
+[14.305018] (-) TimerEvent: {}
+[14.406308] (-) TimerEvent: {}
+[14.507733] (-) TimerEvent: {}
+[14.609369] (-) TimerEvent: {}
+[14.710692] (-) TimerEvent: {}
+[14.812087] (-) TimerEvent: {}
+[14.913289] (-) TimerEvent: {}
+[15.014504] (-) TimerEvent: {}
+[15.116078] (-) TimerEvent: {}
+[15.217240] (-) TimerEvent: {}
+[15.318452] (-) TimerEvent: {}
+[15.419747] (-) TimerEvent: {}
+[15.521031] (-) TimerEvent: {}
+[15.622310] (-) TimerEvent: {}
+[15.723590] (-) TimerEvent: {}
+[15.824970] (-) TimerEvent: {}
+[15.926308] (-) TimerEvent: {}
+[16.027601] (-) TimerEvent: {}
+[16.128989] (-) TimerEvent: {}
+[16.230328] (-) TimerEvent: {}
+[16.331797] (-) TimerEvent: {}
+[16.433149] (-) TimerEvent: {}
+[16.534488] (-) TimerEvent: {}
+[16.635841] (-) TimerEvent: {}
+[16.737200] (-) TimerEvent: {}
+[16.838500] (-) TimerEvent: {}
+[16.939821] (-) TimerEvent: {}
+[17.041232] (-) TimerEvent: {}
+[17.142594] (-) TimerEvent: {}
+[17.243857] (-) TimerEvent: {}
+[17.345188] (-) TimerEvent: {}
+[17.446448] (-) TimerEvent: {}
+[17.547734] (-) TimerEvent: {}
+[17.649108] (-) TimerEvent: {}
+[17.750385] (-) TimerEvent: {}
+[17.851692] (-) TimerEvent: {}
+[17.953068] (-) TimerEvent: {}
+[18.054396] (-) TimerEvent: {}
+[18.155642] (-) TimerEvent: {}
+[18.257310] (-) TimerEvent: {}
+[18.358596] (-) TimerEvent: {}
+[18.459888] (-) TimerEvent: {}
+[18.561394] (-) TimerEvent: {}
+[18.662704] (-) TimerEvent: {}
+[18.764078] (-) TimerEvent: {}
+[18.865343] (-) TimerEvent: {}
+[18.966679] (-) TimerEvent: {}
+[19.068016] (-) TimerEvent: {}
+[19.169263] (-) TimerEvent: {}
+[19.270519] (-) TimerEvent: {}
+[19.371809] (-) TimerEvent: {}
+[19.473111] (-) TimerEvent: {}
+[19.574412] (-) TimerEvent: {}
+[19.675899] (-) TimerEvent: {}
+[19.777277] (-) TimerEvent: {}
+[19.878611] (-) TimerEvent: {}
+[19.979977] (-) TimerEvent: {}
+[20.081291] (-) TimerEvent: {}
+[20.182558] (-) TimerEvent: {}
+[20.283876] (-) TimerEvent: {}
+[20.385243] (-) TimerEvent: {}
+[20.486592] (-) TimerEvent: {}
+[20.587879] (-) TimerEvent: {}
+[20.689206] (-) TimerEvent: {}
+[20.790463] (-) TimerEvent: {}
+[20.891745] (-) TimerEvent: {}
+[20.993132] (-) TimerEvent: {}
+[21.094421] (-) TimerEvent: {}
+[21.195771] (-) TimerEvent: {}
+[21.297153] (-) TimerEvent: {}
+[21.398538] (-) TimerEvent: {}
+[21.499836] (-) TimerEvent: {}
+[21.601329] (-) TimerEvent: {}
+[21.702572] (-) TimerEvent: {}
+[21.803910] (-) TimerEvent: {}
+[21.905167] (-) TimerEvent: {}
+[22.006374] (-) TimerEvent: {}
+[22.107616] (-) TimerEvent: {}
+[22.208884] (-) TimerEvent: {}
+[22.310099] (-) TimerEvent: {}
+[22.411323] (-) TimerEvent: {}
+[22.512602] (-) TimerEvent: {}
+[22.613791] (-) TimerEvent: {}
+[22.715002] (-) TimerEvent: {}
+[22.816231] (-) TimerEvent: {}
+[22.917443] (-) TimerEvent: {}
+[23.018707] (-) TimerEvent: {}
+[23.120046] (-) TimerEvent: {}
+[23.221278] (-) TimerEvent: {}
+[23.322490] (-) TimerEvent: {}
+[23.423808] (-) TimerEvent: {}
+[23.525086] (-) TimerEvent: {}
+[23.569391] (hat_test) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/pi_bot_ws/src/hat_test/src/hat_test.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid HatTestNode::timer_callback()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[23.570770] (hat_test) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pi/pi_bot_ws/src/hat_test/src/hat_test.cpp:23:16:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Koperation on \xe2\x80\x98\x1b[01m\x1b[K((HatTestNode*)this)->HatTestNode::invert\x1b[m\x1b[K\xe2\x80\x99 may be undefined [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsequence-point\x07-Wsequence-point\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[23.571842] (hat_test) StderrLine: {'line': b'   23 |         \x1b[01;35m\x1b[Kinvert = motor_pwr == 100 ? invert *= -1 : invert\x1b[m\x1b[K;\n'}
+[23.573051] (hat_test) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[23.625409] (-) TimerEvent: {}
+[23.726713] (-) TimerEvent: {}
+[23.828128] (-) TimerEvent: {}
+[23.929439] (-) TimerEvent: {}
+[24.030746] (-) TimerEvent: {}
+[24.132188] (-) TimerEvent: {}
+[24.233493] (-) TimerEvent: {}
+[24.334855] (-) TimerEvent: {}
+[24.436209] (-) TimerEvent: {}
+[24.537541] (-) TimerEvent: {}
+[24.638905] (-) TimerEvent: {}
+[24.740360] (-) TimerEvent: {}
+[24.841805] (-) TimerEvent: {}
+[24.943100] (-) TimerEvent: {}
+[25.044486] (-) TimerEvent: {}
+[25.145853] (-) TimerEvent: {}
+[25.247216] (-) TimerEvent: {}
+[25.348594] (-) TimerEvent: {}
+[25.449913] (-) TimerEvent: {}
+[25.551234] (-) TimerEvent: {}
+[25.652711] (-) TimerEvent: {}
+[25.754035] (-) TimerEvent: {}
+[25.855393] (-) TimerEvent: {}
+[25.956765] (-) TimerEvent: {}
+[26.058006] (-) TimerEvent: {}
+[26.159358] (-) TimerEvent: {}
+[26.260766] (-) TimerEvent: {}
+[26.362096] (-) TimerEvent: {}
+[26.463432] (-) TimerEvent: {}
+[26.564896] (-) TimerEvent: {}
+[26.666233] (-) TimerEvent: {}
+[26.767528] (-) TimerEvent: {}
+[26.868786] (-) TimerEvent: {}
+[26.970000] (-) TimerEvent: {}
+[27.071348] (-) TimerEvent: {}
+[27.172741] (-) TimerEvent: {}
+[27.274077] (-) TimerEvent: {}
+[27.375375] (-) TimerEvent: {}
+[27.476781] (-) TimerEvent: {}
+[27.578135] (-) TimerEvent: {}
+[27.679443] (-) TimerEvent: {}
+[27.780835] (-) TimerEvent: {}
+[27.882119] (-) TimerEvent: {}
+[27.983509] (-) TimerEvent: {}
+[28.084915] (-) TimerEvent: {}
+[28.186303] (-) TimerEvent: {}
+[28.287639] (-) TimerEvent: {}
+[28.389075] (-) TimerEvent: {}
+[28.490379] (-) TimerEvent: {}
+[28.591697] (-) TimerEvent: {}
+[28.692966] (-) TimerEvent: {}
+[28.794179] (-) TimerEvent: {}
+[28.895360] (-) TimerEvent: {}
+[28.906184] (hat_test) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable hat_test\x1b[0m\n'}
+[28.995621] (-) TimerEvent: {}
+[29.096951] (-) TimerEvent: {}
+[29.198714] (-) TimerEvent: {}
+[29.300359] (-) TimerEvent: {}
+[29.402037] (-) TimerEvent: {}
+[29.503440] (-) TimerEvent: {}
+[29.605008] (-) TimerEvent: {}
+[29.706377] (-) TimerEvent: {}
+[29.807733] (-) TimerEvent: {}
+[29.909198] (-) TimerEvent: {}
+[30.010629] (-) TimerEvent: {}
+[30.111880] (-) TimerEvent: {}
+[30.213148] (-) TimerEvent: {}
+[30.215370] (hat_test) StdoutLine: {'line': b'[100%] Built target hat_test\n'}
+[30.292696] (hat_test) CommandEnded: {'returncode': 0}
+[30.298168] (hat_test) JobProgress: {'identifier': 'hat_test', 'progress': 'install'}
+[30.301167] (hat_test) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/pi/pi_bot_ws/build/hat_test'], 'cwd': '/home/pi/pi_bot_ws/build/hat_test', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pi'), ('SSH_CLIENT', '2601:40f:4400:57d0::91da 43882 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/pi'), ('OLDPWD', '/home/pi'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/pi/pi_bot_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-kitty'), ('XDG_SESSION_ID', '6'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/pi/pi_bot_ws/install/hat_test:/home/pi/pi_bot_ws/install/motor_driver:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/pi/pi_bot_ws/build/hat_test'), ('SSH_CONNECTION', '2601:40f:4400:57d0::91da 43882 2601:40f:4400:57d0::fc2f 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/pi/pi_bot_ws/install/motor_driver:/home/pi/pi_bot_ws/install/hat_test:/opt/ros/humble')]), 'shell': False}
+[30.318632] (-) TimerEvent: {}
+[30.365895] (hat_test) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[30.368604] (hat_test) StdoutLine: {'line': b'-- Installing: /home/pi/pi_bot_ws/install/hat_test/lib/hat_test/hat_test\n'}
+[30.377374] (hat_test) StdoutLine: {'line': b'-- Set runtime path of "/home/pi/pi_bot_ws/install/hat_test/lib/hat_test/hat_test" to ""\n'}
+[30.378622] (hat_test) StdoutLine: {'line': b'-- Up-to-date: /home/pi/pi_bot_ws/install/hat_test/share/ament_index/resource_index/package_run_dependencies/hat_test\n'}
+[30.379767] (hat_test) StdoutLine: {'line': b'-- Up-to-date: /home/pi/pi_bot_ws/install/hat_test/share/ament_index/resource_index/parent_prefix_path/hat_test\n'}
+[30.381289] (hat_test) StdoutLine: {'line': b'-- Up-to-date: /home/pi/pi_bot_ws/install/hat_test/share/hat_test/environment/ament_prefix_path.sh\n'}
+[30.382456] (hat_test) StdoutLine: {'line': b'-- Up-to-date: /home/pi/pi_bot_ws/install/hat_test/share/hat_test/environment/ament_prefix_path.dsv\n'}
+[30.384041] (hat_test) StdoutLine: {'line': b'-- Up-to-date: /home/pi/pi_bot_ws/install/hat_test/share/hat_test/environment/path.sh\n'}
+[30.385479] (hat_test) StdoutLine: {'line': b'-- Up-to-date: /home/pi/pi_bot_ws/install/hat_test/share/hat_test/environment/path.dsv\n'}
+[30.386662] (hat_test) StdoutLine: {'line': b'-- Up-to-date: /home/pi/pi_bot_ws/install/hat_test/share/hat_test/local_setup.bash\n'}
+[30.387544] (hat_test) StdoutLine: {'line': b'-- Up-to-date: /home/pi/pi_bot_ws/install/hat_test/share/hat_test/local_setup.sh\n'}
+[30.388555] (hat_test) StdoutLine: {'line': b'-- Up-to-date: /home/pi/pi_bot_ws/install/hat_test/share/hat_test/local_setup.zsh\n'}
+[30.389848] (hat_test) StdoutLine: {'line': b'-- Up-to-date: /home/pi/pi_bot_ws/install/hat_test/share/hat_test/local_setup.dsv\n'}
+[30.391248] (hat_test) StdoutLine: {'line': b'-- Installing: /home/pi/pi_bot_ws/install/hat_test/share/hat_test/package.dsv\n'}
+[30.392318] (hat_test) StdoutLine: {'line': b'-- Up-to-date: /home/pi/pi_bot_ws/install/hat_test/share/ament_index/resource_index/packages/hat_test\n'}
+[30.393270] (hat_test) StdoutLine: {'line': b'-- Up-to-date: /home/pi/pi_bot_ws/install/hat_test/share/hat_test/cmake/hat_testConfig.cmake\n'}
+[30.394132] (hat_test) StdoutLine: {'line': b'-- Up-to-date: /home/pi/pi_bot_ws/install/hat_test/share/hat_test/cmake/hat_testConfig-version.cmake\n'}
+[30.394917] (hat_test) StdoutLine: {'line': b'-- Up-to-date: /home/pi/pi_bot_ws/install/hat_test/share/hat_test/package.xml\n'}
+[30.402744] (hat_test) CommandEnded: {'returncode': 0}
+[30.419802] (-) TimerEvent: {}
+[30.521779] (-) TimerEvent: {}
+[30.534170] (hat_test) JobEnded: {'identifier': 'hat_test', 'rc': 0}
+[30.540758] (-) EventReactorShutdown: {}

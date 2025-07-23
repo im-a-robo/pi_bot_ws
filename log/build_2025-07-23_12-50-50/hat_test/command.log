@@ -1,0 +1,2 @@
+Invoking command in '/home/pi/pi_bot_ws/build/hat_test': CMAKE_PREFIX_PATH=/home/pi/pi_bot_ws/install/motor_driver:/home/pi/pi_bot_ws/install/hat_test:/opt/ros/humble /usr/bin/cmake --build /home/pi/pi_bot_ws/build/hat_test -- -j4 -l4
+Invoked command in '/home/pi/pi_bot_ws/build/hat_test' returned '-2': CMAKE_PREFIX_PATH=/home/pi/pi_bot_ws/install/motor_driver:/home/pi/pi_bot_ws/install/hat_test:/opt/ros/humble /usr/bin/cmake --build /home/pi/pi_bot_ws/build/hat_test -- -j4 -l4

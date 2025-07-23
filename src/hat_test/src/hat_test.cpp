@@ -15,13 +15,13 @@ using namespace std::chrono_literals;
 class HatTestNode : public rclcpp::Node {
    public:
     HatTestNode() : Node("hat_test"), hat_(0x60, 1600) {
-        timer_ = this->create_wall_timer(500ms, std::bind(&HatTestNode::timer_callback, this));
+        timer_ = this->create_wall_timer(100ms, std::bind(&HatTestNode::timer_callback, this));
     }
 
    private:
     void timer_callback() {
-        invert = motor_pwr % 101 == 0 ? invert *= -1 : invert;
-        motor_pwr = ((motor_pwr + 1) % 101) * invert;
+	if(motor_pwr == 100 || motor_pwr == -100) invert *= -1;
+        motor_pwr = ((motor_pwr + invert) % 101);
         RCLCPP_INFO(this->get_logger(), "Running hat test node, setting motor power to %d",
                     motor_pwr);
 

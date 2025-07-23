@@ -1,0 +1,7 @@
+[0.082s] Invoking command in '/home/pi/pi_bot_ws/build/hat_test': CMAKE_PREFIX_PATH=/home/pi/pi_bot_ws/install/motor_driver:/home/pi/pi_bot_ws/install/hat_test:/opt/ros/humble /usr/bin/cmake --build /home/pi/pi_bot_ws/build/hat_test -- -j4 -l4
+[0.407s] [35m[1mConsolidate compiler generated dependencies of target hat_test[0m
+[0.588s] [ 50%] [32mBuilding CXX object CMakeFiles/hat_test.dir/src/hat_test.cpp.o[0m
+[1.137s] gmake[2]: *** [CMakeFiles/hat_test.dir/build.make:76: CMakeFiles/hat_test.dir/src/hat_test.cpp.o] Interrupt
+[1.139s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/hat_test.dir/all] Interrupt
+[1.141s] gmake: *** [Makefile:146: all] Interrupt
+[1.150s] Invoked command in '/home/pi/pi_bot_ws/build/hat_test' returned '-2': CMAKE_PREFIX_PATH=/home/pi/pi_bot_ws/install/motor_driver:/home/pi/pi_bot_ws/install/hat_test:/opt/ros/humble /usr/bin/cmake --build /home/pi/pi_bot_ws/build/hat_test -- -j4 -l4

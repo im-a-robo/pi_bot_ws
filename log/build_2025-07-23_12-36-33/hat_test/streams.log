@@ -1,0 +1,30 @@
+[0.072s] Invoking command in '/home/pi/pi_bot_ws/build/hat_test': AMENT_PREFIX_PATH=/home/pi/pi_bot_ws/install/motor_driver:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pi/pi_bot_ws/install/motor_driver:/opt/ros/humble /usr/bin/cmake --build /home/pi/pi_bot_ws/build/hat_test -- -j4 -l4
+[0.394s] [35m[1mConsolidate compiler generated dependencies of target hat_test[0m
+[0.575s] [ 50%] [32mBuilding CXX object CMakeFiles/hat_test.dir/src/hat_test.cpp.o[0m
+[22.659s] [01m[K/home/pi/pi_bot_ws/src/hat_test/src/hat_test.cpp:[m[K In member function ‘[01m[Kvoid HatTestNode::timer_callback()[m[K’:
+[22.660s] [01m[K/home/pi/pi_bot_ws/src/hat_test/src/hat_test.cpp:23:16:[m[K [01;35m[Kwarning: [m[Koperation on ‘[01m[K((HatTestNode*)this)->HatTestNode::invert[m[K’ may be undefined [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsequence-point-Wsequence-point]8;;[m[K]
+[22.661s]    23 |         [01;35m[Kinvert = motor_pwr % 101 == 0 ? invert *= -1 : invert[m[K;
+[22.663s]       |         [01;35m[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[27.976s] [100%] [32m[1mLinking CXX executable hat_test[0m
+[29.291s] [100%] Built target hat_test
+[29.370s] Invoked command in '/home/pi/pi_bot_ws/build/hat_test' returned '0': AMENT_PREFIX_PATH=/home/pi/pi_bot_ws/install/motor_driver:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pi/pi_bot_ws/install/motor_driver:/opt/ros/humble /usr/bin/cmake --build /home/pi/pi_bot_ws/build/hat_test -- -j4 -l4
+[29.384s] Invoking command in '/home/pi/pi_bot_ws/build/hat_test': AMENT_PREFIX_PATH=/home/pi/pi_bot_ws/install/motor_driver:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pi/pi_bot_ws/install/motor_driver:/opt/ros/humble /usr/bin/cmake --install /home/pi/pi_bot_ws/build/hat_test
+[29.439s] -- Install configuration: ""
+[29.441s] -- Installing: /home/pi/pi_bot_ws/install/hat_test/lib/hat_test/hat_test
+[29.451s] -- Set runtime path of "/home/pi/pi_bot_ws/install/hat_test/lib/hat_test/hat_test" to ""
+[29.452s] -- Up-to-date: /home/pi/pi_bot_ws/install/hat_test/share/ament_index/resource_index/package_run_dependencies/hat_test
+[29.453s] -- Up-to-date: /home/pi/pi_bot_ws/install/hat_test/share/ament_index/resource_index/parent_prefix_path/hat_test
+[29.455s] -- Up-to-date: /home/pi/pi_bot_ws/install/hat_test/share/hat_test/environment/ament_prefix_path.sh
+[29.456s] -- Up-to-date: /home/pi/pi_bot_ws/install/hat_test/share/hat_test/environment/ament_prefix_path.dsv
+[29.457s] -- Up-to-date: /home/pi/pi_bot_ws/install/hat_test/share/hat_test/environment/path.sh
+[29.460s] -- Up-to-date: /home/pi/pi_bot_ws/install/hat_test/share/hat_test/environment/path.dsv
+[29.461s] -- Up-to-date: /home/pi/pi_bot_ws/install/hat_test/share/hat_test/local_setup.bash
+[29.462s] -- Up-to-date: /home/pi/pi_bot_ws/install/hat_test/share/hat_test/local_setup.sh
+[29.463s] -- Up-to-date: /home/pi/pi_bot_ws/install/hat_test/share/hat_test/local_setup.zsh
+[29.464s] -- Up-to-date: /home/pi/pi_bot_ws/install/hat_test/share/hat_test/local_setup.dsv
+[29.465s] -- Installing: /home/pi/pi_bot_ws/install/hat_test/share/hat_test/package.dsv
+[29.466s] -- Up-to-date: /home/pi/pi_bot_ws/install/hat_test/share/ament_index/resource_index/packages/hat_test
+[29.467s] -- Up-to-date: /home/pi/pi_bot_ws/install/hat_test/share/hat_test/cmake/hat_testConfig.cmake
+[29.468s] -- Up-to-date: /home/pi/pi_bot_ws/install/hat_test/share/hat_test/cmake/hat_testConfig-version.cmake
+[29.469s] -- Up-to-date: /home/pi/pi_bot_ws/install/hat_test/share/hat_test/package.xml
+[29.481s] Invoked command in '/home/pi/pi_bot_ws/build/hat_test' returned '0': AMENT_PREFIX_PATH=/home/pi/pi_bot_ws/install/motor_driver:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pi/pi_bot_ws/install/motor_driver:/opt/ros/humble /usr/bin/cmake --install /home/pi/pi_bot_ws/build/hat_test
